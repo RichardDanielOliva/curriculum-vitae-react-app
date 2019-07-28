@@ -1,8 +1,9 @@
 import React from 'react';
-import CONTACT_INFO from '../../static-data/contact-info.data';
+import { useTranslation } from 'react-i18next';
 
-const ContactInfo = () => {
-    const { name, lastName, profile, address, stateAddress, prefixPhone, phone, mail, profileStrong, profileComplement} = CONTACT_INFO;
+const ContactInfo = (props) => {
+    const { t } = useTranslation();
+    const { name, lastName, profile, address, stateAddress, prefixPhone, phone, mail, profileStrong, profileComplement} = t('contactInfo');
 
     return ( 
         <div className="contact-info-component">

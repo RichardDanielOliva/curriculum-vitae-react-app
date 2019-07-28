@@ -1,0 +1,46 @@
+{
+    "contactInfo": {
+        "name": "Richard Daniel",
+        "lastName": "Oliva Denis",
+        "profile": "Desarrollador",
+        "profileStrong": "Web",
+        "profileComplement": "en formación",
+        "address": "Santiago de Compostela, CP 17503",
+        "stateAddress": "Galicia, Espana",
+        "prefixPhone": "(+34)",
+        "phone": "602 620 382",
+        "mail": "danielolivadenis@gmail.com"
+    },
+    "navigationSection": [
+        {
+            "id": "0",
+            "sectionName": "Acerca de",
+            "urlLink": ""
+        },
+        {
+            "id": "1",
+            "sectionName": "Formación",
+            "urlLink": "formacion"
+        },
+        {
+            "id": "2",
+            "sectionName": "Experiencia laboral",
+            "urlLink": "experiencia-laboral"
+        },
+        {
+            "id": "3",
+            "sectionName": "Habilidades y aptitudes",
+            "urlLink": "habilidades-aptitudes"
+        },
+        {
+            "id": "4",
+            "sectionName": "Habilidades: proyectos",
+            "urlLink": "habilidades-proyectos"
+        },
+        {
+            "id": "5",
+            "sectionName": "Otros",
+            "urlLink": "otros"
+        }
+    ]
+}

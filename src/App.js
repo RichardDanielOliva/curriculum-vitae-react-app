@@ -6,7 +6,7 @@ import './App.css';
 import Navigation from './components/navigation/navigation.component';
 import About from './pages/about/about.component';
 
-function App() {
+function App(props) {
   return (
     <div className="App">
       <Navigation/>

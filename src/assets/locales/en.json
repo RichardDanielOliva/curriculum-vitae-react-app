@@ -1,0 +1,48 @@
+{
+    "contactInfo": {
+        "name": "Richard Daniel",
+        "lastName": "Oliva Denis",
+        "profile": "Software",
+        "profileStrong": "Development",
+        "profileComplement": "",
+        "address": "Santiago de Compostela, CP 17503",
+        "stateAddress": "Galician, Spain",
+        "prefixPhone": "(+34)",
+        "phone": "602 620 382",
+        "mail": "danielolivadenis@gmail.com"
+    },
+"navigationSection": [
+        {
+            "id": "0",
+            "sectionName": "About",
+            "urlLink": ""
+        },
+        {
+            "id": "1",
+            "sectionName": "Education",
+            "urlLink": "Education"
+        },
+        {
+            "id": "2",
+            "sectionName": "Experience",
+            "urlLink": "Experience"
+        },
+        {
+            "id": "3",
+            "sectionName": "Skills",
+            "urlLink": "Skills"
+        },
+        {
+            "id": "4",
+            "sectionName": "Skills: projects",
+            "urlLink": "Skills-projects"
+        },
+        {
+            "id": "5",
+            "sectionName": "others",
+            "urlLink": "others"
+        }
+    ]
+
+    
+}
