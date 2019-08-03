@@ -1,0 +1,22 @@
+// .project-Card-novisible{
+//     display: none;
+// }
+
+// .box {  
+//     transition: opacity 1s linear;  
+//     transform:translate(0);
+//     opacity: 1;
+//   }  
+//   .hidden {  
+//     transform:translate(9999px);
+//     opacity: 0;  
+//   }
+
+.hidden {  
+        transform:translate(9999px);
+        display: none;  
+      }
+.project-list-component{
+    margin-top: 10%;
+}
+    

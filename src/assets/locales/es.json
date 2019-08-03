@@ -15,7 +15,7 @@
         {
             "id": "0",
             "sectionName": "Acerca de",
-            "urlLink": ""
+            "urlLink": "acerca-de"
         },
         {
             "id": "1",
@@ -29,18 +29,200 @@
         },
         {
             "id": "3",
-            "sectionName": "Habilidades y aptitudes",
-            "urlLink": "habilidades-aptitudes"
+            "sectionName": "Habilidades",
+            "urlLink": "habilidades"
         },
         {
             "id": "4",
-            "sectionName": "Habilidades: proyectos",
-            "urlLink": "habilidades-proyectos"
-        },
-        {
-            "id": "5",
             "sectionName": "Otros",
             "urlLink": "otros"
+        }
+    ],
+    "schoolsInfo": [
+        {
+            "id": "0",
+            "school": "IES Fernando Wirtz Suárez",
+            "degree": "FP Dual Desarrollo de Aplicaciones Web",
+            "fieldOfStudy": "Programación",
+            "startYear": "2018",
+            "endYear": "2020",
+            "grade": "",
+            "description": "",
+            "imgUrl": ""
+        },
+        {
+            "id": "1",
+            "school": "Universidade de Santiago de Compostela",
+            "degree": "Máster Universitario en Planificación y Gestión del Desarrollo Territorial",
+            "fieldOfStudy": "Ordenación del territorio, urbanismo y medio ambiente",
+            "startYear": "2016",
+            "endYear": "2017",
+            "grade": "9",
+            "description": "",
+            "imgUrl": ""
+        },
+        {
+            "id": "2",
+            "school": "Universidad Simón Bolivar",
+            "degree": "Urbanismo",
+            "fieldOfStudy": "Ordenación del territorio, urbanismo y medio ambiente",
+            "startYear": "2009",
+            "endYear": "2015",
+            "grade": "",
+            "description": "",
+            "imgUrl": ""
+        }
+    ],
+    "worksExperience": [
+        {
+            "id": "0",
+            "title": "Becario de desarrollo de software",
+            "company": "Indra software labs",
+            "companyImgUrl": "",
+            "location": "A Coruna, Galicia, Spain",
+            "startDate": "2019/03/15",
+            "endDate": "present",
+            "description": ""
+        },
+        {
+            "id": "1",
+            "title": "Apoyo a la Investigación - Prácticas Máster Universitario",
+            "company": "Asociación Universitaria de Ciencias Sociales y Humanidades Galicia Iberoamérica (AGALI)",
+            "companyImgUrl": "",
+            "location": "Santiago de Compostela, Galicia, Spain",
+            "startDate": "2017/01/03",
+            "endDate": "2017/05/30",
+            "description": ""
+        },
+        {
+            "id": "2",
+            "title": "Planificador urbano",
+            "company": "Alcaldia del Hatillo",
+            "companyImgUrl": "",
+            "location": "Caracas, Distrito Capital, Venezuela",
+            "startDate": "2016/01/04",
+            "endDate": "2016/06/30/06",
+            "description": "Departamento de Planificación Urbana y Catastro: Coordinación de Urbanismo Municipal"
+        },
+        {
+            "id": "3",
+            "title": "Planificador de Espacios Urbanos  - Prácticas Grado",
+            "company": "PDVSA La Estancia",
+            "companyImgUrl": "",
+            "location": "Caracas, Distrito Capital, Venezuela",
+            "startDate": "2015/01/01",
+            "endDate": "2015/05/30",
+            "description": ""
+        }
+       
+    ],
+    "projects": [
+        {
+            "id": "0",
+            "title": "Curriculum vitae",
+            "urlRepository": "",
+            "description": "Pagina web donde se despliega ...",
+            "skillsImproved": [
+                "html",
+                "css",
+                "javascript",
+                "react",
+                "bootstrap",
+                "yarn"
+            ],
+            "tecnologies": [
+                {
+                    "tecnologyName": "Html",
+                    "skillAsociated": "html"
+                },
+                {
+                    "tecnologyName": "css",
+                    "skillAsociated": "css"
+                },
+                {
+                    "tecnologyName": "JavaScript",
+                    "skillAsociated": "javascript"
+                },
+                {
+                    "tecnologyName": "React",
+                    "skillAsociated": "react"
+                },
+                {
+                    "tecnologyName": "Bootstrap",
+                    "skillAsociated": "bootstrap"
+                },
+                {
+                    "tecnologyName": "Yarn",
+                    "skillAsociated": "yarn"
+                }
+            ],
+            "comments": ""
+        },
+        {
+            "id": "1",
+            "title": "Administrative book app",
+            "urlRepository": "",
+            "description": "Proyecto incorporar las diversas soluciones que ofrece Spring",
+            "skillsImproved": [
+                "java",
+                "spring"
+            ],
+            "tecnologies": [
+                {
+                    "tecnologyName": "java",
+                    "skillAsociated": "java"
+                },
+                {
+                    "tecnologyName": "Spring MVC",
+                    "skillAsociated": "spring"
+                },
+                {
+                    "tecnologyName": "Spring data",
+                    "skillAsociated": "spring"
+                },
+                {
+                    "tecnologyName": "Spring data",
+                    "skillAsociated": "maven"
+                },
+                {
+                    "tecnologyName": "jsp",
+                    "skillAsociated": "java"
+                }
+            ],
+            "comments": ""
+        },
+        {
+            "id": "1",
+            "title": "Administrative book app",
+            "urlRepository": "",
+            "description": "Proyecto incorporar las diversas soluciones que ofrece Spring",
+            "skillsImproved": [
+                "java",
+                "spring"
+            ],
+            "tecnologies": [
+                {
+                    "tecnologyName": "java",
+                    "skillAsociated": "java"
+                },
+                {
+                    "tecnologyName": "Spring MVC",
+                    "skillAsociated": "spring"
+                },
+                {
+                    "tecnologyName": "Spring data",
+                    "skillAsociated": "spring"
+                },
+                {
+                    "tecnologyName": "Spring data",
+                    "skillAsociated": "maven"
+                },
+                {
+                    "tecnologyName": "jsp",
+                    "skillAsociated": "java"
+                }
+            ],
+            "comments": ""
         }
     ]
 }

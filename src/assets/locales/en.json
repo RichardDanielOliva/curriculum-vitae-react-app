@@ -15,12 +15,12 @@
         {
             "id": "0",
             "sectionName": "About",
-            "urlLink": ""
+            "urlLink": "about"
         },
         {
             "id": "1",
             "sectionName": "Education",
-            "urlLink": "Education"
+            "urlLink": "education"
         },
         {
             "id": "2",
@@ -34,13 +34,74 @@
         },
         {
             "id": "4",
-            "sectionName": "Skills: projects",
-            "urlLink": "Skills-projects"
-        },
-        {
-            "id": "5",
             "sectionName": "others",
             "urlLink": "others"
+        }
+    ],
+    "schoolsInfo": [
+        {
+            "id": "0",
+            "school": "IES Fernando Wirtz Suárez",
+            "degree": "FP Dual Desarrollo de Aplicaciones Web",
+            "fieldOfStudy": "Programación",
+            "startYear": "2018",
+            "endYear": "2020",
+            "grade": "",
+            "description": "",
+            "imgUrl": ""
+        },
+        {
+            "id": "1",
+            "school": "Universidade de Santiago de Compostela",
+            "degree": "Máster Universitario en Planificación y Gestión del Desarrollo Territorial",
+            "fieldOfStudy": "Ordenación del territorio, urbanismo y medio ambiente",
+            "startYear": "2016",
+            "endYear": "2017",
+            "grade": "9",
+            "description": "",
+            "imgUrl": ""
+        },
+        {
+            "id": "2",
+            "school": "Universidad Simón Bolivar",
+            "degree": "Urbanismo",
+            "fieldOfStudy": "Ordenación del territorio, urbanismo y medio ambiente",
+            "startYear": "2009",
+            "endYear": "2015",
+            "grade": "",
+            "description": "",
+            "imgUrl": ""
+        }
+    ],
+    "projects": [
+        {
+            "id": "0",
+            "title": "Curriculum vitae",
+            "urlRepository": "",
+            "description": "Pagina web donde se despliega ...",
+            "tecnologies": [
+                "Html",
+                "css",
+                "JavaScript",
+                "React",
+                "Bootstrap",
+                "Yarn"
+            ],
+            "comments": ""
+        },
+        {
+            "id": "1",
+            "title": "Administrative book app",
+            "urlRepository": "",
+            "description": "Proyecto incorporar las diversas soluciones que ofrece Spring",
+            "tecnologies": [
+                "Java",
+                "Spring MVC",
+                "Spring data",
+                "Maven",
+                "jsp"
+            ],
+            "comments": ""
         }
     ]
 

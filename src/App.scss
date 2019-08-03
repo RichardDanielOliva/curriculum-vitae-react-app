@@ -1,9 +1,14 @@
 body {
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Quicksand', sans-serif; 
 }
+
 @media (min-width: 992px) {
   body {
     padding-top: 0;
     padding-left: 17rem;
   }
+}
+
+* {
+  box-sizing: border-box;
 }
