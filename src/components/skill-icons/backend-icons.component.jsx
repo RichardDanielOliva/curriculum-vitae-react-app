@@ -1,7 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 
-import {getBackEndIcons, getIconComponent} from './icons.utils';
+import {getBackEndIcons, getIconComponent} from '../utils/icons.utils';
 import {addOrRemoveSkill} from '../../redux/skill/skill.action';
 
 import './skill-icons.style.scss';

@@ -1,53 +1,49 @@
 import React from 'react';
 import { connect } from 'react-redux';
 
-const isASkillSelected = (skillSelected, skill) => {
+import {getIconComponent} from '../utils/icons.utils';
 
-    if (skillSelected.includes(skill)){
-        return true;
-    }
-
-    return false;
-}
+import './project-card.style.scss'
 
 const ProjectCard = (({title, urlRepository, description, tecnologies, comments, skills}) => (
-    <table class="table table-bordered">
-        <tbody>
-            <tr>
-                <td colspan="3">
-                    <strong>Title:</strong> {title}
-                </td>
-                <td>
-                    <strong>Repository:</strong> {urlRepository}
-                </td>
-            </tr>
-            <tr>
-                <td colspan="3">
-                    <strong>Description:</strong>{description}
-                </td>
-                <td colspan="1" rowSpan="2">
-                    <strong>Tecnologies:</strong> 
-                        <ul>
-                            {
-                                tecnologies.map(({tecnologyName, skillAsociated})=>
-                                    <li className={isASkillSelected(skills, skillAsociated) ? `text-strong` : ``}>{tecnologyName}</li>
-                                )
+    <div className="project-card">
+
+        <div className="project-card-header">
+            <div className="card-image"
+            style={{
+                backgroundImage: `url(https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20%2814%29.jpg)`
+              }}/>
+                <div className="project-card-header-content">
+                    <h2 className="card-header-title">{title}</h2>
+            
+                    <div className="icons-card">
+                        {
+                            tecnologies.map(({tecnologyName, skillAsociated, id}) => (
+                                <div Key={id} className={(skills.includes(skillAsociated)) ? 'card-icon card-icon-selected' : 'card-icon'}>
+                                    {getIconComponent(skillAsociated)}
+                                </div>
+                            ))
                             }
-                        </ul>
-                </td>
-            </tr>
-            <tr>
-                <td colspan="3">
-                    <strong>Comment:</strong>  {comments}
-                </td>
-            </tr>
-            <tr>
-                <td colspan="4">
-                    <strong>Preview:</strong> 
-                </td>
-            </tr>
-        </tbody>    
-    </table>
+                    </div>
+                </div>
+         </div>
+
+        <div class="project-card-body">
+
+        <p class="project-card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus, ex, recusandae. Facere modi sunt, quod quibusdam dignissimos neque rem nihil ratione est placeat vel, natus non quos laudantium veritatis sequi.Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi.</p>
+
+        </div>
+        <div class="project-card-footer">
+        <p class="project-card-text">Repositorio: </p>
+
+            <div className="card-icon">
+                <a className="card-footer-icon" href="https://github.com/RichardDanielOliva" >
+                    {getIconComponent('github')}
+                </a>
+            </div>
+            
+        </div>
+    </div>
 ));
 
 const mapStateToProps = state => ({

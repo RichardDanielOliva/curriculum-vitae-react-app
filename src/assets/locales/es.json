@@ -48,7 +48,7 @@
             "endYear": "2020",
             "grade": "",
             "description": "",
-            "imgUrl": ""
+            "imgUrl": "wirtz"
         },
         {
             "id": "1",
@@ -59,7 +59,7 @@
             "endYear": "2017",
             "grade": "9",
             "description": "",
-            "imgUrl": ""
+            "imgUrl": "usc"
         },
         {
             "id": "2",
@@ -70,7 +70,7 @@
             "endYear": "2015",
             "grade": "",
             "description": "",
-            "imgUrl": ""
+            "imgUrl": "usb"
         }
     ],
     "worksExperience": [
@@ -78,7 +78,7 @@
             "id": "0",
             "title": "Becario de desarrollo de software",
             "company": "Indra software labs",
-            "companyImgUrl": "",
+            "companyImgUrl": "indra",
             "location": "A Coruna, Galicia, Spain",
             "startDate": "2019/03/15",
             "endDate": "present",
@@ -88,7 +88,7 @@
             "id": "1",
             "title": "Apoyo a la Investigación - Prácticas Máster Universitario",
             "company": "Asociación Universitaria de Ciencias Sociales y Humanidades Galicia Iberoamérica (AGALI)",
-            "companyImgUrl": "",
+            "companyImgUrl": "agali",
             "location": "Santiago de Compostela, Galicia, Spain",
             "startDate": "2017/01/03",
             "endDate": "2017/05/30",
@@ -98,7 +98,7 @@
             "id": "2",
             "title": "Planificador urbano",
             "company": "Alcaldia del Hatillo",
-            "companyImgUrl": "",
+            "companyImgUrl": "elhatillo",
             "location": "Caracas, Distrito Capital, Venezuela",
             "startDate": "2016/01/04",
             "endDate": "2016/06/30/06",
@@ -108,7 +108,7 @@
             "id": "3",
             "title": "Planificador de Espacios Urbanos  - Prácticas Grado",
             "company": "PDVSA La Estancia",
-            "companyImgUrl": "",
+            "companyImgUrl": "pdvsaLaEstancia",
             "location": "Caracas, Distrito Capital, Venezuela",
             "startDate": "2015/01/01",
             "endDate": "2015/05/30",
@@ -132,26 +132,32 @@
             ],
             "tecnologies": [
                 {
+                    "id": "0",
                     "tecnologyName": "Html",
                     "skillAsociated": "html"
                 },
                 {
+                    "id": "1",
                     "tecnologyName": "css",
                     "skillAsociated": "css"
                 },
                 {
+                    "id": "2",
                     "tecnologyName": "JavaScript",
                     "skillAsociated": "javascript"
                 },
                 {
+                    "id": "3",
                     "tecnologyName": "React",
                     "skillAsociated": "react"
                 },
                 {
+                    "id": "4",
                     "tecnologyName": "Bootstrap",
                     "skillAsociated": "bootstrap"
                 },
                 {
+                    "id": "5",
                     "tecnologyName": "Yarn",
                     "skillAsociated": "yarn"
                 }
@@ -169,22 +175,27 @@
             ],
             "tecnologies": [
                 {
+                    "id": "0",
                     "tecnologyName": "java",
                     "skillAsociated": "java"
                 },
                 {
+                    "id": "1",
                     "tecnologyName": "Spring MVC",
                     "skillAsociated": "spring"
                 },
                 {
+                    "id": "2",
                     "tecnologyName": "Spring data",
                     "skillAsociated": "spring"
                 },
                 {
+                    "id": "3",
                     "tecnologyName": "Spring data",
                     "skillAsociated": "maven"
                 },
                 {
+                    "id": "4",
                     "tecnologyName": "jsp",
                     "skillAsociated": "java"
                 }

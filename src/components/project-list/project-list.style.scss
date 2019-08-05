@@ -11,6 +11,16 @@
 //     transform:translate(9999px);
 //     opacity: 0;  
 //   }
+.project-list-cards{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+
+.project-list-card{
+    width: 30vw;
+    margin: 4%;
+}
 
 .hidden {  
         transform:translate(9999px);
@@ -18,5 +28,6 @@
       }
 .project-list-component{
     margin-top: 10%;
+    text-align: center;
 }
     

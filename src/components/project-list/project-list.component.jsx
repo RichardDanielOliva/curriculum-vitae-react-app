@@ -22,13 +22,15 @@ const ProyectList = ({skills}) =>{
 
     return(
             <div className="project-list-component">
-                <h1 className="project-list-title">Projectos</h1>
+                <h1 className="project-list-title">Proyectos</h1>
+                <div className="project-list-cards">
                 {
                     projectsData.map(({id, skillsImproved, ...otherProps}) =>  (
-                    <Element key={id} name={`hello-element${id}`} className={hasToBeDisplay(skills, skillsImproved) ? `my-4 box` :`my-4 hidden`} >
+                    <Element key={id} name={`hello-element${id}`} className={hasToBeDisplay(skills, skillsImproved) ? `my-4 project-list-card box` :`my-4 project-list-card hidden`} >
                         <ProjectCard  {...otherProps}/>
                     </Element>
             ))}
+                </div>
         </div>
     );
 } 

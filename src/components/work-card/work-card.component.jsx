@@ -1,13 +1,15 @@
 import React from 'react';
 
+import {getIconComponent} from '../utils/icons.utils';
+
 import './work-card.style.scss'
 
 const WorkCard = (({title, company, companyImgUrl, location, startDate, endDate, description}) => {
     return (
         <div className='work-card-component'>
-            <div className="company-logo">
-                <img src={companyImgUrl} class="card-img" alt="..."/>
-            </div>
+        <div className="company-logo">
+            {getIconComponent(companyImgUrl)}
+        </div>
             <div className="work-info">
                 <div className="main-info"> 
                     <div>

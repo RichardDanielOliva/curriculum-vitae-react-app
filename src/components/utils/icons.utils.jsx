@@ -11,6 +11,15 @@ import { ReactComponent as SpringLogo } from '../../assets/logos/springio-icon.s
 import { ReactComponent as HibernateLogo } from '../../assets/logos/hibernate-icon.svg';
 import { ReactComponent as SqlLogo } from '../../assets/logos/sql-file-symbol.svg';
 import { ReactComponent as MavenLogo } from '../../assets/logos/maven.svg';
+import { ReactComponent as GithubLogo } from '../../assets/logos/mark-github.svg';
+import { ReactComponent as WirtzLogo } from '../../assets/logos/wirtz.svg';
+import { ReactComponent as USCLogo } from '../../assets/logos/usc.svg';
+import { ReactComponent as USBLogo } from '../../assets/logos/usb.svg';
+
+import AgaliLogo  from '../../assets/logos/agali.svg';
+import ELHatilloLogo  from '../../assets/logos/elhatillo.svg';
+import IndraLogo from '../../assets/logos/indra.svg';
+import PDVSALaEstanciaLogo  from '../../assets/logos/pdvsaLaEstancia.svg';
 
 export const getFrontEndIcons = () => {
     return [
@@ -57,11 +66,24 @@ export const getIconComponent = (name, onCLickFunction) => {
             return  <HibernateLogo onClick={() => onCLickFunction(name)} />
         case 'sql':
             return  <SqlLogo onClick={() => onCLickFunction(name)} />
+        case 'github':
+            return  <GithubLogo onClick={() => onCLickFunction(name)} />
+        case 'wirtz':
+            return  <WirtzLogo onClick={() => onCLickFunction(name)} />
+        case 'usc':
+            return  <USCLogo onClick={() => onCLickFunction(name)} />
+        case 'usb':
+            return  <USBLogo onClick={() => onCLickFunction(name)} /> 
+        case 'agali': 
+            return  <img src={AgaliLogo} className="company-icon" alt="AGALILogo" />
+        case 'indra': 
+            return  <img src={IndraLogo} className="company-icon" alt="IndraLogo" />
+        case 'elhatillo': 
+            return  <img src={ELHatilloLogo} className="company-icon" alt="ElHatilloLogo" />
+        case 'pdvsaLaEstancia': 
+            return  <img src={PDVSALaEstanciaLogo} className="company-icon" alt="PDVSALaEstanciaLogo" />
         default:
             break;
     }
 }
 
-export const logoSelectedStateClass = (logoName, skills) => {
-    return skills.includes(logoName) ? 'logo': 'logoSelected' 
-}

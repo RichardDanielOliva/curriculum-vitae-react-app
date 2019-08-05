@@ -1,11 +1,15 @@
 import React from 'react';
 
-import './school-card.style.scss'
+import './school-card.style.scss';
+
+import {getIconComponent} from '../utils/icons.utils';
 
 const SchoolCard = (({school, degree, fieldOfStudy, startYear, endYear, grade, description, imgUrl}) => (
     <div className='school-card-component'>
         <div className="school-logo">
-            <img src={imgUrl} class="card-img" alt="..."/>
+            <div className="school-icon">
+            {getIconComponent(imgUrl)}
+            </div>
         </div>
         <div className="school-info">
             <div className="main-info"> 
