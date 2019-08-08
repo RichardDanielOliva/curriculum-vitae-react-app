@@ -15,6 +15,11 @@ import { ReactComponent as GithubLogo } from '../../assets/logos/mark-github.svg
 import { ReactComponent as WirtzLogo } from '../../assets/logos/wirtz.svg';
 import { ReactComponent as USCLogo } from '../../assets/logos/usc.svg';
 import { ReactComponent as USBLogo } from '../../assets/logos/usb.svg';
+import { ReactComponent as ExtracurricularActivitiesLogo } from '../../assets/logos/others-section/activities.svg';
+import { ReactComponent as HobbiesLogo } from '../../assets/logos/others-section/bike.svg';
+import { ReactComponent as CoursesLogo } from '../../assets/logos/others-section/courses.svg';
+import { ReactComponent as LanguagesLogo } from '../../assets/logos/others-section/languages.svg';
+import { ReactComponent as WorkExperiencesLogo } from '../../assets/logos/others-section/work-experience.svg';
 
 import AgaliLogo  from '../../assets/logos/agali.svg';
 import ELHatilloLogo  from '../../assets/logos/elhatillo.svg';
@@ -42,48 +47,66 @@ export const getBackEndIcons = () => {
     ]
 } 
 
-export const getIconComponent = (name, onCLickFunction) => {
+export const getIconComponent = (name) => {
     switch (name) {
         case 'html':
-            return <Html5Logo onClick={() => onCLickFunction(name)} />;
+            return <Html5Logo />;
         case 'css':
-            return <CssLogo onClick={() => onCLickFunction(name)} />;
+            return <CssLogo />;
         case 'javascript':
-            return  <JavaScriptLogo onClick={() => onCLickFunction(name)} />
+            return  <JavaScriptLogo />
         case 'bootstrap':
-            return  <BootstrapLogo onClick={() => onCLickFunction(name)} />
+            return  <BootstrapLogo />
         case 'react':
-            return  <ReactLogo onClick={() => onCLickFunction(name)} />
+            return  <ReactLogo />
         case 'yarn':
-            return  <YarnLogo onClick={() => onCLickFunction(name)} />
+            return  <YarnLogo />
         case 'maven':
-            return <MavenLogo onClick={() => onCLickFunction(name)} />;
+            return <MavenLogo />;
         case 'java':
-            return  <JavaLogo onClick={() => onCLickFunction(name)} />
+            return  <JavaLogo />
         case 'spring':
-            return  <SpringLogo onClick={() => onCLickFunction(name)} />
+            return  <SpringLogo />
         case 'hibernate':
-            return  <HibernateLogo onClick={() => onCLickFunction(name)} />
+            return  <HibernateLogo />
         case 'sql':
-            return  <SqlLogo onClick={() => onCLickFunction(name)} />
+            return  <SqlLogo />
         case 'github':
-            return  <GithubLogo onClick={() => onCLickFunction(name)} />
+            return  <GithubLogo />
         case 'wirtz':
-            return  <WirtzLogo onClick={() => onCLickFunction(name)} />
+            return  <WirtzLogo />
         case 'usc':
-            return  <USCLogo onClick={() => onCLickFunction(name)} />
+            return  <USCLogo />
         case 'usb':
-            return  <USBLogo onClick={() => onCLickFunction(name)} /> 
-        case 'agali': 
-            return  <img src={AgaliLogo} className="company-icon" alt="AGALILogo" />
-        case 'indra': 
-            return  <img src={IndraLogo} className="company-icon" alt="IndraLogo" />
-        case 'elhatillo': 
-            return  <img src={ELHatilloLogo} className="company-icon" alt="ElHatilloLogo" />
-        case 'pdvsaLaEstancia': 
-            return  <img src={PDVSALaEstanciaLogo} className="company-icon" alt="PDVSALaEstanciaLogo" />
+            return  <USBLogo /> 
+        case 'others-experience':
+            return  <WorkExperiencesLogo />
+        case 'courses':
+            return  <CoursesLogo />
+        case 'languages':
+            return  <LanguagesLogo />
+        case 'extracurricular-activities':
+            return  <ExtracurricularActivitiesLogo />  
+        case 'hobbies':
+            return  <HobbiesLogo />                
         default:
             break;
     }
 }
+
+    export const getIconImg = (name) => {
+        switch (name) {
+            case 'agali': 
+                return  <img src={AgaliLogo} className="company-icon" alt="AGALILogo" />
+            case 'indra': 
+                return  <img src={IndraLogo} className="company-icon" alt="IndraLogo" />
+            case 'elhatillo': 
+                return  <img src={ELHatilloLogo} className="company-icon" alt="ElHatilloLogo" />
+            case 'pdvsaLaEstancia': 
+                return  <img src={PDVSALaEstanciaLogo} className="company-icon" alt="PDVSALaEstanciaLogo" />
+            default:
+                break;
+        }
+    }
+
 

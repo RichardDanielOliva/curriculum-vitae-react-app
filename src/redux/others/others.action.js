@@ -1,0 +1,6 @@
+const OthersActionTypes = {
+    DISPLAY_OR_HIDDEN_COURSES: 'DISPLAY_OR_HIDDEN_COURSES',
+    DISPLAY_OR_HIDDEN_ALL_COURSES: 'DISPLAY_OR_HIDDEN_ALL_COURSES'
+  };
+  
+export default OthersActionTypes;

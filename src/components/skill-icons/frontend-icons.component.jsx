@@ -5,23 +5,34 @@ import {getFrontEndIcons, getIconComponent} from '../utils/icons.utils';
 
 import {addOrRemoveSkill} from '../../redux/skill/skill.action';
 
-import './skill-icons.style.scss';
+import {FrontendContainer, TitleContainer, IconContainer, Logo} from './skill-icons.style';
+
 
 const FrontEndIcons = ({filterHidden, skills, addOrRemoveSkill}) => {
     const frontEndIcons = getFrontEndIcons();
     return (
-        <div className="frontend text-center ">
-            <h4 className={filterHidden ? 'hidden' : 'frontend-title'}>Frontend</h4>
-            <div className="icons">
+        <FrontendContainer>
+            <TitleContainer filterHidden={filterHidden}>
+                <h4>Frontend</h4>
+            </TitleContainer>
+           
+            <IconContainer>
                 {
                     frontEndIcons.map(({name, id}) => (
-                        <div Key={id} className={(skills.includes(name)) ? 'logo-selected logo' : 'logo'}>
-                            {getIconComponent(name, addOrRemoveSkill)}
-                        </div>
+                        <Logo 
+                            Key= {id} 
+                            width = "60px"
+                            height = "60px"
+                            skills = {skills}
+                            skillName = {name}
+                            onClick={() => addOrRemoveSkill(name)}
+                            >
+                            {getIconComponent(name)}
+                        </Logo>
                     ))
-                    }
-                </div>
-         </div>)
+                }
+            </IconContainer>
+         </FrontendContainer>)
 }
 
 const mapStateToProps = state => ({

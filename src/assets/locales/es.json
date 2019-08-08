@@ -235,5 +235,134 @@
             ],
             "comments": ""
         }
+    ],
+    "othersLogo": [
+        {
+            "id": "0",
+            "name": "Otra experiencia laboral",
+            "nameLogo": "others-experience"
+        },
+        {
+            "id": "1",
+            "name": "Cursos Realizados",
+            "nameLogo": "courses"
+        },
+        {
+            "id": "2",
+            "name": "Idiomas",
+            "nameLogo": "languages"
+        },
+        {
+            "id": "3",
+            "name": "Actividades extracurriculares",
+            "nameLogo": "extracurricular-activities"
+        },
+        {
+            "id": "4",
+            "name": "Aficiones",
+            "nameLogo": "hobbies"
+        }
+    ],
+    "courses": [
+        {
+            "id": "0",
+            "title": "Data Collection and Processing with Python",
+            "issuingOrganization": "Universidad de Michigan en Coursera",
+            "issueDateFinished": "true",
+            "issueDate": "Enero, 2019",
+            "noExpirationDate": "false",
+            "credentialId": "VE5QELJEGN3F",
+            "credentialUrl": "https://www.coursera.org/account/accomplishments/verify/VE5QELJEGN3F"
+        },
+        {
+            "id": "1",
+            "title": "Python Functions, Files, and Dictionaries",
+            "issuingOrganization": "Universidad de Michigan en Coursera",
+            "issueDateFinished": "true",
+            "issueDate": "Enero, 2019",
+            "noExpirationDate": "false",
+            "credentialId": "XT5GXQXAW34R",
+            "credentialUrl": "https://www.coursera.org/account/accomplishments/verify/XT5GXQXAW34R"
+        },
+        {
+            "id": "2",
+            "title": "Advanced Styling with Responsive Design",
+            "issuingOrganization": "Universidad de Michigan en Coursera",
+            "issueDateFinished": "true",
+            "issueDate": "Agosto, 2018",
+            "noExpirationDate": "false",
+            "credentialId": "HPQQ2TU9XMKV",
+            "credentialUrl": "https://www.coursera.org/account/accomplishments/verify/HPQQ2TU9XMKV"
+        },
+        {
+            "id": "3",
+            "title": "Interactivity with JavaScript",
+            "issuingOrganization": "Universidad de Michigan en Coursera",
+            "issueDateFinished": "true",
+            "issueDate": "Agosto, 2018",
+            "noExpirationDate": "false",
+            "credentialId": "PJL48Z3DGDLN",
+            "credentialUrl": "https://www.coursera.org/account/accomplishments/verify/PJL48Z3DGDLN"
+        },
+        {
+            "id": "4",
+            "title": "Introduction to CSS3",
+            "issuingOrganization": "Universidad de Michigan en Coursera",
+            "issueDateFinished": "true",
+            "issueDate": "Agosto, 2018",
+            "noExpirationDate": "false",
+            "credentialId": "C7FUGKSRMWP2",
+            "credentialUrl": "https://www.coursera.org/account/accomplishments/verify/C7FUGKSRMWP2"
+        },
+        {
+            "id": "5",
+            "title": "Introduction to HTML5",
+            "issuingOrganization": "Universidad de Michigan en Coursera",
+            "issueDateFinished": "true",
+            "issueDate": "Julio, 2018",
+            "noExpirationDate": "false",
+            "credentialId": "YBDYUU4U8MDJ",
+            "credentialUrl": "https://www.coursera.org/account/accomplishments/verify/YBDYUU4U8MDJ"
+        },
+        {
+            "id": "6",
+            "title": "Volviendo más ecológica la economía: Ciudades Sustentables",
+            "issuingOrganization": "Universidad de Lund en Coursera",
+            "issueDateFinished": "true",
+            "issueDate": "febero, 2018",
+            "noExpirationDate": "false",
+            "credentialId": "AMN3KYJAQR5B",
+            "credentialUrl": "https://www.coursera.org/account/accomplishments/verify/AMN3KYJAQR5B"
+        },
+        {
+            "id": "7",
+            "title": "Complete React Developer in 2019 (w/ Redux, Hooks, GraphQL)",
+            "issuingOrganization": "Udemy",
+            "issueDateFinished": "false",
+            "issueDate": "",
+            "noExpirationDate": "",
+            "credentialId": "",
+            "credentialUrl": ""
+        },
+        {
+            "id": "8",
+            "title": "Desarrollo Web con Spring Framework 5 & Spring Boot+Restful",
+            "issuingOrganization": "Udemy",
+            "issueDateFinished": "false",
+            "issueDate": "",
+            "noExpirationDate": "",
+            "credentialId": "",
+            "credentialUrl": ""
+        },
+        {
+            "id": "9",
+            "title": "Spring Framework 5: Beginner to Guru",
+            "issuingOrganization": "Udemy",
+            "issueDateFinished": "false",
+            "issueDate": "",
+            "noExpirationDate": "",
+            "credentialId": "",
+            "credentialUrl": ""
+        }
     ]
 }

@@ -4,23 +4,33 @@ import { connect } from 'react-redux';
 import {getBackEndIcons, getIconComponent} from '../utils/icons.utils';
 import {addOrRemoveSkill} from '../../redux/skill/skill.action';
 
-import './skill-icons.style.scss';
+import {BackendContainer, TitleContainer, IconContainer, Logo} from './skill-icons.style';
 
 const BackEndIcons = ({filterHidden, skills, addOrRemoveSkill}) => {
     const backEndIcons = getBackEndIcons();
     return (
-        <div className="backend text-center">
-        <h4 className={filterHidden ? 'hidden' : 'backend-title'}>Backend</h4>
-            <div className="icons">
+        <BackendContainer>
+            <TitleContainer filterHidden={filterHidden}>
+                <h4>Backend</h4>
+            </TitleContainer>
+            
+            <IconContainer>
                 {
                     backEndIcons.map(({name, id}) => (
-                        <div Key={id} className={(skills.includes(name)) ? 'logo-selected logo' : 'logo'}>
-                            {getIconComponent(name, addOrRemoveSkill)}
-                        </div>
+                        <Logo 
+                            Key= {id} 
+                            width = "60px"
+                            height = "60px"
+                            skills = {skills}
+                            skillName = {name}
+                            onClick={() => addOrRemoveSkill(name)}
+                            >
+                            {getIconComponent(name)}
+                        </Logo>
                     ))
                 }
-            </div>
-        </div>
+            </IconContainer>
+        </BackendContainer>
     )
 }
 

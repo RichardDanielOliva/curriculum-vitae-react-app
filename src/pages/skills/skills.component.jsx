@@ -3,7 +3,6 @@ import React from 'react';
 import { connect } from 'react-redux';
 
 import ProyectList from '../../components/project-list/project-list.component';
-
 import SkillFilter from '../../components/skill-filter/skill-filter.component';
 
 import './skills.style.scss';

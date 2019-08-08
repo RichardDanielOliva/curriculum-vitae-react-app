@@ -1,6 +1,6 @@
 import React from 'react';
 
-import {getIconComponent} from '../utils/icons.utils';
+import {getIconImg} from '../utils/icons.utils';
 
 import './work-card.style.scss'
 
@@ -8,7 +8,7 @@ const WorkCard = (({title, company, companyImgUrl, location, startDate, endDate,
     return (
         <div className='work-card-component'>
         <div className="company-logo">
-            {getIconComponent(companyImgUrl)}
+            {getIconImg(companyImgUrl)}
         </div>
             <div className="work-info">
                 <div className="main-info"> 

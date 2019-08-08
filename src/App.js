@@ -8,6 +8,7 @@ import About from './pages/about/about.component';
 import Education from './pages/education/education.component';
 import Experience from './pages/experience/experience.component';
 import Skills from './pages/skills/skills.component';
+import Others from './pages/others/others.component';
 
 function App(props) {
   return (
@@ -26,6 +27,9 @@ function App(props) {
 
           <Route path='/experience' component={Experience}/>
           <Route path='/experiencia-laboral' component={Experience}/>
+
+          <Route path='/others' component={Others}/>
+          <Route path='/otros' component={Others}/> 
           
           <Route path='/acerca-de' component={About}/>
           <Route path='/about' component={About}/>   
