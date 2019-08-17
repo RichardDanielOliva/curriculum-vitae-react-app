@@ -1,11 +1,20 @@
 body {
-  font-family: 'Quicksand', sans-serif; 
+  font-family: 'Quicksand', 'Montserrat'; 
 }
+
+h1, h2, h3 {
+  font-family: 'Rubik', 'Quicksand';
+}
+
+body {
+    padding-top: 2vh;     
+}
+
 
 @media (min-width: 992px) {
   body {
-    padding-top: 0;
-    padding-left: 17rem;
+    padding-top: 0;      
+    padding-left: 20vw;
   }
 }
 

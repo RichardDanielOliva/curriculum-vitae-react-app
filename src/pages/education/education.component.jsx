@@ -2,23 +2,24 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 
 import SchoolCard from '../../components/school-card/school-card.component';
-import './education.style.scss';
+
+import {EducationSectionContainer, SchoolCardContainer} from './education.style';
 
 const Education = () =>{
     const { t } = useTranslation();
     const schoolsInfo = t('schoolsInfo');
 
     return(
-        <section className='resume-section'>
-            <h1 >Education</h1>
+        <EducationSectionContainer>
+            <h1>EDUCACION</h1>
                 
             {schoolsInfo.map(({id, ...otherProps}) => (
-                <div className="school-card-section">
+                <SchoolCardContainer>
                     <SchoolCard key={id} {...otherProps}/>
-                </div>
+                </SchoolCardContainer>
                 ))
             }
-        </section>
+        </EducationSectionContainer>
     );
 } 
 

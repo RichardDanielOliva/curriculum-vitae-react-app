@@ -22,9 +22,36 @@ export const TitleContainer = styled.div`
     ${getTitleContainerStyle}
 `;
 
-export const IconContainer = styled.div`
+export const IconContainerHiddenStyle = css`
+    align-content: space-between;
+
+
+    @media (min-width: 992px) {
+        ${displayFlexRow}
+        align-items: baseline;
+    }
+
+    @media (min-width: 1200px) {
+        ${displayFlexRow}
+        align-items: baseline;
+    }
+`;
+
+export const IconContainerStyle = css`
     ${displayFlexRow}
     align-items: baseline;
+`;
+
+const getIconContainerStyle = props => {
+    if (props.filterHidden) {
+      return IconContainerHiddenStyle;
+    }
+  
+    return IconContainerStyle;
+};
+
+export const IconContainer = styled.div`
+    ${getIconContainerStyle}
 `;
 
 const getLogoStyle = props => {
@@ -36,9 +63,39 @@ const getLogoStyle = props => {
 };
 
 export const Logo = styled.div`
-    width: ${({width}) => width};
-    height: ${({height}) => height};
-    margin: 10px;
+    width: 40px;
+    height: 40px;
+    margin: 4px;
+    
+    @media (min-width: 600px) {
+        width: 45px;
+        height: 45px;
+        margin: 6px;
+    }
+
+    @media (min-width: 768px) {
+        width: 45px;
+        height: 45px;
+        margin: 10px;
+    }
+
+    @media (min-width: 992px) {
+        width: 45px;
+        height: 45px;
+        margin: 5px;
+    }
+
+    @media (min-width: 1200px) {
+        width: 55px;
+        height: 55px;
+        margin: 5px;
+    }
+
+    @media (min-width: 1400px) {
+        width: 60px;
+        height: 60px;
+        margin: 10px;
+    }
 
     ${getLogoStyle}
 `;

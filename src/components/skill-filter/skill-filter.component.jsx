@@ -9,15 +9,19 @@ import './skill-filter.style.scss';
 const SkillFilter = ({filterHidden}) => {
     return (
         <div className="skill-filter-component">
-            <h1 className={filterHidden ? 'hidden' : 'filter-title' }>Habilidades</h1>
+            <h1 className={filterHidden ? 'hidden' : 'filter-title' }>HABILIDADES</h1>
             <h3 className={filterHidden ? 'hidden' : 'filter-subtitle'}>
                 Lenguajes de programación y herramientas    
             </h3>
             <div className={filterHidden ? 'top-fixed-filter' : 'filter-core'}>
                 <p className="text-muted">Selecciona para visualizar proyectos asociados!</p>
                 <div className="icons-section">
-                    <FrontEndIcons/>
-                    <BackEndIcons/>
+                    <div className="icon-item">
+                        <FrontEndIcons/>
+                    </div>
+                    <div className="icon-item">
+                        <BackEndIcons/>
+                    </div>
                 </div>
             </div>
             <small className={filterHidden ? 'hidden' : 'text-muted' }>*Ciertas herramientas, como Java o Spring, transcienden el esquema cliente-servidor. Sin embargo, se colocan del lado donde se han utilizado mayormente </small>

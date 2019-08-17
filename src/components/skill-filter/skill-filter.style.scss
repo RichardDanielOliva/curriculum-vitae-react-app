@@ -4,15 +4,45 @@
 }
 
 .icons-section{
-    display: flex;
-    justify-content: space-between;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+}
+
+.icon-item{
+    @media (min-width: 1000px) {
+    margin: 0% 3%;
+    }
 }
 
 .top-fixed-filter{
-    width: 75%;
-    position: fixed; /* Set the navbar to fixed position */
-    top: 0; /* Position the navbar at the top of the page */
-    background-color: rgba(255, 255, 255,0.7);
+    position: fixed;
+    left: 2vw;
+    width: 20%;
+    height: 80%;
+
+    @media (min-width: 600px) {
+        left: 5vw;
+    }
+
+    @media (min-width: 992px) {
+        width: 72%;
+        position: fixed; /* Set the navbar to fixed position */
+        top: 0; /* Position the navbar at the top of the page */
+        left: 22vw;
+        background-color: rgba(255, 255, 255,0.7);
+        height: auto;
+    }
+
+    @media (min-width: 1200px) {
+        width: 78%;
+        left: 22vw;
+        position: fixed; /* Set the navbar to fixed position */
+        top: 0; /* Position the navbar at the top of the page */
+        background-color: rgba(255, 255, 255,0.7);
+    }
+    
 }
 
 .filter-subtitle{

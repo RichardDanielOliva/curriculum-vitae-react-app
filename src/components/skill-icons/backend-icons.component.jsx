@@ -14,7 +14,7 @@ const BackEndIcons = ({filterHidden, skills, addOrRemoveSkill}) => {
                 <h4>Backend</h4>
             </TitleContainer>
             
-            <IconContainer>
+            <IconContainer filterHidden={filterHidden}>
                 {
                     backEndIcons.map(({name, id}) => (
                         <Logo 

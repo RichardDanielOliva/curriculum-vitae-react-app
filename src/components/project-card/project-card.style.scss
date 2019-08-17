@@ -28,14 +28,24 @@
     }
 
     .card-image{
-        width: 458px;
         height: 110px;
         background-size: cover;
         opacity: 0.1;
         position: absolute;
+        width: 340px;
+    
+        @media (min-width: 768px) {
+            width: 415px;
+        }
+    
+        @media (min-width: 992px) {
+            width: 335px;
+        }
+    
+        @media (min-width: 1200px) {
+            width: 404px;
+        }
     }
-
-
 }
 
 .project-card-body{
@@ -77,9 +87,22 @@
 .card-icon{
     height: 40px;
     width: 40px;
-    margin: 10px;
+    margin: 5px;
     border-radius: 100%;
     fill: rgb(0, 0, 0);
+
+        
+    @media (min-width: 600px) {
+        margin: 10px;
+    }
+
+    @media (min-width: 992px) {
+        margin: 5px;
+    }
+
+    @media (min-width: 1200px) {
+        margin: 10px;
+    }
 }
 
 .card-icon-selected{

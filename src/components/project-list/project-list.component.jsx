@@ -22,7 +22,7 @@ const ProyectList = ({skills}) =>{
 
     return(
             <div className="project-list-component">
-                <h1 className="project-list-title">Proyectos</h1>
+                <h3 className="project-list-title">PROYECTOS</h3>
                 <div className="project-list-cards">
                 {
                     projectsData.map(({id, skillsImproved, ...otherProps}) =>  (

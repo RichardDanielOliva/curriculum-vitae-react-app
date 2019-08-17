@@ -15,7 +15,7 @@ const ProjectCard = (({title, urlRepository, description, tecnologies, comments,
               }}/>
               {/* <CardHeader height="110px"> */}
                 <div className="project-card-header-content">
-                    <h2 className="card-header-title">{title}</h2>
+                    <h3 className="card-header-title">{title}</h3>
             
                     <div className="icons-card">
                         {

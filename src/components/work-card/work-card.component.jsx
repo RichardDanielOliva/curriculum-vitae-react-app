@@ -21,7 +21,7 @@ const WorkCard = (({title, company, companyImgUrl, location, startDate, endDate,
                     </div>
                 </div>
                 <div className="dates">
-                        <h5>{startDate} - {endDate}</h5>
+                    <h5>{startDate} - {endDate}</h5>
                 </div>
             </div>
         </div>)

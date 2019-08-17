@@ -9,12 +9,6 @@ export const hidden = css`
     display: none;
     `;
 
-export const fixedTopNav = css`
-    position: fixed; 
-    top: 0; 
-    background-color: rgba(255, 255, 255,0.7);
-    `;
-
     export const displayFlexRow = css`
     display: flex;
     `;
@@ -45,6 +39,14 @@ export const displayFlexColumnItemCenterXY = css`
     ${displayFlexColumnItemCenterX}
     ${displayFlexColumnItemCenterY}
     `;
+
+    export const fixedTopNav = css`
+    ${displayFlexColumn}
+    width: 75%;
+    position: fixed; 
+    top: 0; 
+    background-color: rgba(255, 255, 255,0.7);
+    `;
     
 const BackgroundAleatoryColorFlexContainer = styled.div`
     ${displayFlexColumnItemCenterXY}
@@ -53,7 +55,7 @@ const BackgroundAleatoryColorFlexContainer = styled.div`
     background: linear-gradient(135deg, rgba(215, 247, 244, 0.8) 0%, rgba(${aleatoryNumber}, ${aleatoryNumber}, ${aleatoryNumber}, 0.8) 100%);
     `;
 
-const backgroundDefaultColor =  css`
+    export const backgroundDefaultColor =  css`
     background: -moz-linear-gradient(-45deg, rgba(239,255,189,1) 0%, rgb(201, 201, 201) 100%);
     background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(239,255,189,1)), color-stop(100%, rgba(0,156,143,1)));
     background: -webkit-linear-gradient(-45deg, rgba(239,255,189,1) 0%, rgb(201, 201, 201) 100%);
@@ -65,20 +67,26 @@ const backgroundDefaultColor =  css`
 `;
 
 export const BackgroundImageContainer = styled.div`
-    width: ${({width}) => width};
-    height: ${({height}) => height};
+    width: 100%;
     background-size: cover;
+    background-position: center;
+    // width: ${({width}) => width};
+    height: ${({height}) => height};
+    // background-size: cover;
     opacity: 0.1;
-    position: absolute;
+    z-index: 4;
+    // position: absolute;
     background-image: url(${({backgroundImageUrl}) => backgroundImageUrl});
     `;
 
 export const BackgroundColorFlexContainer = styled.div`
-    ${displayFlexColumnItemCenterXY};
     overflow: hidden;
+    ${displayFlexColumnItemCenterXY};
+    z-index: -10;
     width: ${({width}) => width};
     height: ${({height}) => height};
     ${backgroundDefaultColor};
+    overflow: hidden;
 `;
 
 export const FlexColumnItemCenterXYContainer = styled.div`

@@ -2,29 +2,31 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { connect } from 'react-redux';
 
-import './course-list.style.scss';
-
-import CustomButton from '../custom-button/custom-button.component';
 import CourseCard from '../course-card/course-card.component';
+import {CourseListContainer, TitleContainer, ListContainer, CourseCardContainer} from './course-list.style';
 
 const CourseList = ({skills}) =>{
     const [ t ] = useTranslation();
     const coursesData = t('courses');
 
     return(
-        <div className="course-list-component-selected">
-            <CustomButton onClick="" className="display-course-button"><h3>Cursos</h3></CustomButton>
-            <div className="course-list-card">
+        <CourseListContainer>
+            {/* <TitleContainer>
+                <h1>Cursos</h1>
+            </TitleContainer> */}
+
+            <ListContainer>
                 {coursesData
-                    .filter((item, idx) => idx < 4)
-                    .map(({id, ...otherProps}) =>
-                        <CourseCard key={id} id={id} {...otherProps}/>
+                    .filter((item, idx) => idx < 10)
+                    .map(({id, ...otherProps}) => (
+                        <CourseCardContainer>
+                            <CourseCard key={id} id={id} {...otherProps}/>
+                        </CourseCardContainer>     
+                    )      
                 )}
-            </div>
-            <div class="project-card-footer" onClick="">
-                <p class="project-card-text">Mostrar todos </p>
-            </div>
-        </div>
+            </ListContainer>
+
+        </CourseListContainer>
     );
 } 
 

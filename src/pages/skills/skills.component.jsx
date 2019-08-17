@@ -1,39 +1,26 @@
 import React from 'react';
-// import { scroller } from 'react-scroll';
 import { connect } from 'react-redux';
 
 import ProyectList from '../../components/project-list/project-list.component';
 import SkillFilter from '../../components/skill-filter/skill-filter.component';
 
 import './skills.style.scss';
+import {SkillsSectionContainer, FilterContainer, ProyectContainer} from './skills.style';
 
-class Skills extends React.Component{
-        // if(scroll) {
-        //     const scrollType = {
-        //         duration: 500,
-        //         delay: 50,
-        //         smooth: true, // linear “easeInQuint” “easeOutCubic” 
-        //         offset: -10,
-        //      };
-        //     scroller.scrollTo("hello-element1", scrollType);
-        // }
-
-    render() {
-        return (
-            <section className="skill-section">
-                <div className={this.props.filterHidden ? '' : 'skill-filter'}>
+const Skills = ({proyectListHidden}) => {
+    return (       
+        <SkillsSectionContainer>
+                <FilterContainer>
                     <SkillFilter/>
-                </div>
-                <div className={this.props.proyectListHidden ? 'hidden' : 'projects-section' }>
+                </FilterContainer>
+                <ProyectContainer proyectListHidden={proyectListHidden}>
                     <ProyectList/>
-                </div>
-            </section>
-        );
-      }
-}
+                </ProyectContainer>
+        </SkillsSectionContainer>
+    );
+};
 
 const mapStateToProps = state => ({
-    filterHidden: state.skill.filterHidden,
     proyectListHidden: state.skill.proyectListHidden
 })
 

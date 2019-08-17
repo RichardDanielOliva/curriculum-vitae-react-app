@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import { useTranslation } from 'react-i18next';
 
 import OthersIcon from '../others-icon/others-icon';
-import { FilterContainer, TitleContainer, ContentContainer, SubTitleContainer, IconsContainer}  from './others.style'
+import { FilterContainer, TitleContainer, ContentContainer, SubTitleContainer, IconsContainer, IconContainer}  from './others.style'
 
 const OthersFilter = ({filterHidden}) => {
     const [ t ] = useTranslation();
@@ -12,17 +12,19 @@ const OthersFilter = ({filterHidden}) => {
     return (
         <FilterContainer filterHidden={filterHidden}>
             <TitleContainer filterHidden={filterHidden}>
-                <h1>Otros </h1>
+                <h1>OTROS</h1>
             </TitleContainer>
            
             <ContentContainer filterHidden={filterHidden}>
-                <SubTitleContainer>
-                    <h5>Selecciona para desplegar mas informacion!</h5>
+                <SubTitleContainer filterHidden={filterHidden}>
+                    <h3>Selecciona para desplegar mas informacion!</h3>
                 </SubTitleContainer>
                 <IconsContainer>
                     {
                         othersLogo.map(({id, ...othersProps}) => (
-                            <OthersIcon key={id} {...othersProps} />
+                            <IconContainer key={id}>
+                                <OthersIcon {...othersProps} />
+                            </IconContainer>
                         ))}
                 </IconsContainer>
             </ContentContainer>  

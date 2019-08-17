@@ -1,7 +1,7 @@
 {
     "contactInfo": {
-        "name": "Richard Daniel",
-        "lastName": "Oliva Denis",
+        "name": "RICHARD DANIEL",
+        "lastName": "OLIVA DENIS",
         "profile": "Desarrollador",
         "profileStrong": "Web",
         "profileComplement": "en formación",
@@ -45,7 +45,7 @@
             "degree": "FP Dual Desarrollo de Aplicaciones Web",
             "fieldOfStudy": "Programación",
             "startYear": "2018",
-            "endYear": "2020",
+            "endYear": "Actualidad",
             "grade": "",
             "description": "",
             "imgUrl": "wirtz"
@@ -80,8 +80,8 @@
             "company": "Indra software labs",
             "companyImgUrl": "indra",
             "location": "A Coruna, Galicia, Spain",
-            "startDate": "2019/03/15",
-            "endDate": "present",
+            "startDate": "Marzo, 2019",
+            "endDate": "Actualidad",
             "description": ""
         },
         {
@@ -90,8 +90,8 @@
             "company": "Asociación Universitaria de Ciencias Sociales y Humanidades Galicia Iberoamérica (AGALI)",
             "companyImgUrl": "agali",
             "location": "Santiago de Compostela, Galicia, Spain",
-            "startDate": "2017/01/03",
-            "endDate": "2017/05/30",
+            "startDate": "Enero, 2017",
+            "endDate": "Mayo, 2017",
             "description": ""
         },
         {
@@ -100,8 +100,8 @@
             "company": "Alcaldia del Hatillo",
             "companyImgUrl": "elhatillo",
             "location": "Caracas, Distrito Capital, Venezuela",
-            "startDate": "2016/01/04",
-            "endDate": "2016/06/30/06",
+            "startDate": "Abril, 2016",
+            "endDate": "Junio, 2016",
             "description": "Departamento de Planificación Urbana y Catastro: Coordinación de Urbanismo Municipal"
         },
         {
@@ -110,8 +110,8 @@
             "company": "PDVSA La Estancia",
             "companyImgUrl": "pdvsaLaEstancia",
             "location": "Caracas, Distrito Capital, Venezuela",
-            "startDate": "2015/01/01",
-            "endDate": "2015/05/30",
+            "startDate": "Enero, 2015",
+            "endDate": "Mayo, 2015",
             "description": ""
         }
        
@@ -239,7 +239,7 @@
     "othersLogo": [
         {
             "id": "0",
-            "name": "Otra experiencia laboral",
+            "name": "Otras experiencias laborales",
             "nameLogo": "others-experience"
         },
         {
@@ -254,8 +254,8 @@
         },
         {
             "id": "3",
-            "name": "Actividades extracurriculares",
-            "nameLogo": "extracurricular-activities"
+            "name": "Publicaciones",
+            "nameLogo": "publications"
         },
         {
             "id": "4",
@@ -363,6 +363,186 @@
             "noExpirationDate": "",
             "credentialId": "",
             "credentialUrl": ""
+        }
+    ],
+    "languages": [
+        {
+            "id": "0",
+            "name": "Ingles",
+            "globalLevel": "Independent user B2",
+            "speaking": {
+                "name":"Speaking",
+                "level": "B2",
+                "logoLevel": "60",
+                "logo":"speaking"
+            },
+            "listening": {
+                "name":"Listening",
+                "level": "C1",
+                "logoLevel": "70",
+                "logo":"listening"
+            },
+            "writing": {
+                "name":"Writing",
+                "level": "B2",
+                "logoLevel": "60",
+                "logo":"writing"
+            },
+            "reading": {
+                "name":"Reading",
+                "level": "C1",
+                "logoLevel": "75",
+                "logo":"reading"
+            }
+        },
+        {
+            "id": "1",
+            "name": "Espanol",
+            "globalLevel": "Nativo",
+            "speaking": {
+                "name":"Speaking",
+                "level": "NA",
+                "logoLevel": "100",
+                "logo":"speaking"
+            },
+            "listening": {
+                "name":"Listening",
+                "level": "NA",
+                "logoLevel": "100",
+                "logo":"listening"
+            },
+            "writing": {
+                "name":"Writing",
+                "level": "NA",
+                "logoLevel": "100",
+                "logo":"writing"
+            },
+            "reading": {
+                "name":"Reading",
+                "level": "NA",
+                "logoLevel": "100",
+                "logo":"speaking"
+            }
+        }
+    ],
+    "others-experience": [
+        {
+            "id": "0",
+            "title": "Comercial",
+            "issuingOrganization": "Banco Santander",
+            "location": "Santiago de Compostela, Galicia, Spain",
+            "issueDateFinished": "true",
+            "issueDate": "septiembre, 2017 - octubre, 2017",
+            "description": "Campaña de inscripción de estudiantes de USC"
+        },
+        {
+            "id": "1",
+            "title": "Azafato Deportivo",
+            "issuingOrganization": "RC Deportivo La Coruna",
+            "location": "A Coruna, Galicia, Spain",
+            "issueDateFinished": "true",
+            "issueDate": "agosto, 2017 - mayo, 2018",
+            "description": "Campaña de inscripción de estudiantes de USC"
+        },
+        {
+            "id": "2",
+            "title": "Comercial Deportivo",
+            "issuingOrganization": "El Corte Inglés, S.A.",
+            "location": "Santiago de Compostela, Galicia, Spain",
+            "issueDateFinished": "true",
+            "issueDate": "noviembre, 2017 - febrero, 2018",
+            "description": "Campaña de inscripción de estudiantes de USC"
+        },
+        {
+            "id": "3",
+            "title": "Programa de Estudio y Trabajo (Hosteleria)",
+            "issuingOrganization": "Carbis Bay Hotel,",
+            "location": "Carbis Bay, Cornwall, Reino Unido",
+            "issueDateFinished": "true",
+            "issueDate": "mayo, 2018 - agosto, 2018",
+            "description": "-Programa de estudio (inglés) y trabajo con practicas retribuidas en la Hostelería."
+        },
+        {
+            "id": "4",
+            "title": "Repartidor",
+            "issuingOrganization": "Domino's Pizza",
+            "location": "Santiago de Compostela, Galicia, Spain",
+            "issueDateFinished": "true",
+            "issueDate": "septiembre, 2018 - febero, 2019",
+            "description": ""
+        }
+    ],
+    "publications": [
+        {
+            "id": "0",
+            "title": "Patrones de distribución territorial de la población extranjera en Galicia, 1997 - 2017",
+            "publisher": "Revista Galega de Economía, Vol. 27-2 (2018)",
+            "publicationDate": "09/01/2018",
+            "authors": [
+                {
+                    "id" : "0",
+                    "name":"Richard Daniel",
+                    "lastname": "Oliva Denis"
+                },
+                {
+                    "id" : "1",
+                    "name":"José Antonio",
+                    "lastname": "ALDREY VAZQUEZ"
+                }
+            ],
+            "publicationURL": "http://www.usc.es/econo/RGE/Vol27/rge2724.pdf",
+            "description": "Para mayor información: https://ideas.repec.org/a/sdo/regaec/v27y2018i2_4.html"
+        },
+        {
+            "id": "1",
+            "title": "Desorden urbanístico en el área metropolitana de Vigo. ¿Es posible la ordenación?",
+            "publisher": "XXV Congreso de la AGE",
+            "publicationDate": "10/27/2017",
+            "authors": [
+                {
+                    "id" : "0",
+                    "name":"Richard Daniel",
+                    "lastname": "Oliva Denis"
+                },
+                {
+                    "id" : "1",
+                    "name":"Carlos",
+                    "lastname": "Ferrás"
+                },
+                {
+                    "id" : "2",
+                    "name":"Gonzalo",
+                    "lastname": "Silva Solla"
+                },
+                {
+                    "id" : "3",
+                    "name":"Brais",
+                    "lastname": "Leirós López"
+                },
+                {
+                    "id" : "4",
+                    "name":"Jimena",
+                    "lastname": "Varela Rodríguez"
+                },
+                {
+                    "id" : "5",
+                    "name":"Luis",
+                    "lastname": "Romero Fernández"
+                }
+            ],
+            "publicationURL": "https://www.researchgate.net/publication/322550943_DESORDEN_URBANISTICO_EN_EL_AREA_METROPOLITANA_DE_VIGO_ES_POSIBLE_LA_ORDENACION"
+        }
+    ],
+     "hobbies": [
+        {
+            "id": "0",
+            "name": "Atletismo",
+            "nameLogo": "running"
+        },
+        {
+            "id": "1",
+            "name": "Ciclismo",
+            "nameLogo": "hobbies"
         }
     ]
 }

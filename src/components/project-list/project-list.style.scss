@@ -13,13 +13,28 @@
 //   }
 .project-list-cards{
     display: flex;
-    flex-wrap:wrap;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .project-list-card{
-    width: 30vw;
-    margin: 4%;
+    width: 340px;
+    margin: 0% 1%;
+
+    @media (min-width: 600px) {
+        width: 415px;
+        margin: 0% 1%;
+    }
+
+    @media (min-width: 992px) {
+        width: 47%;
+        margin: 0% 1%;
+    }
+
+    @media (min-width: 1200px) {
+        width: 47%;
+        margin: 0% 1%;
+    }
 }
 
 .hidden {  
@@ -27,7 +42,7 @@
         display: none;  
       }
 .project-list-component{
-    margin-top: 10%;
+    margin-top: 2%;
     text-align: center;
 }
     

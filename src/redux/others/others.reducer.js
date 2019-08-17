@@ -1,4 +1,5 @@
-import OthersActionTypes from './others.action';
+import OthersActionTypes from './others.types';
+import {displayOrHiddenSection, optionEmpty} from './others.utils';
 
 const INITIAL_STATE = {
     filter: {
@@ -13,15 +14,14 @@ const INITIAL_STATE = {
 
 const OthersReducer = (state = INITIAL_STATE, action) => {
     switch (action.type) {
-        case OthersActionTypes.DISPLAY_OR_HIDDEN_COURSES:
+        case OthersActionTypes.DISPLAY_OR_HIDDEN_SECTION:
+                const nextOptionSelected = displayOrHiddenSection(state.filter.optionSelected, action.payload);
             return {
                 ...state,
-                hiddenContent: !state.hiddenContent,
-            }
-        case OthersActionTypes.DISPLAY_OR_HIDDEN_ALL_COURSES:
-            return {
-                ...state,
-                viewAll: !state.viewAll,
+                filter: {
+                    hidden: !optionEmpty(nextOptionSelected),
+                    optionSelected: nextOptionSelected,
+                },
             }
         default:
             return state;

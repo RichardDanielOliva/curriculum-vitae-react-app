@@ -16,7 +16,7 @@ const FrontEndIcons = ({filterHidden, skills, addOrRemoveSkill}) => {
                 <h4>Frontend</h4>
             </TitleContainer>
            
-            <IconContainer>
+            <IconContainer filterHidden={filterHidden}>
                 {
                     frontEndIcons.map(({name, id}) => (
                         <Logo 

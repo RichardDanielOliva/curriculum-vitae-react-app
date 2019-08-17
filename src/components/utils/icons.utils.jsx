@@ -17,9 +17,14 @@ import { ReactComponent as USCLogo } from '../../assets/logos/usc.svg';
 import { ReactComponent as USBLogo } from '../../assets/logos/usb.svg';
 import { ReactComponent as ExtracurricularActivitiesLogo } from '../../assets/logos/others-section/activities.svg';
 import { ReactComponent as HobbiesLogo } from '../../assets/logos/others-section/bike.svg';
+import { ReactComponent as RunningLogo } from '../../assets/logos/others-section/running.svg';
 import { ReactComponent as CoursesLogo } from '../../assets/logos/others-section/courses.svg';
 import { ReactComponent as LanguagesLogo } from '../../assets/logos/others-section/languages.svg';
 import { ReactComponent as WorkExperiencesLogo } from '../../assets/logos/others-section/work-experience.svg';
+import { ReactComponent as ListeningLogo } from '../../assets/logos/listening.svg';
+import { ReactComponent as ReadingLogo } from '../../assets/logos/reading.svg';
+import { ReactComponent as SpeakingLogo } from '../../assets/logos/speaking.svg';
+import { ReactComponent as WritingLogo } from '../../assets/logos/writing.svg';
 
 import AgaliLogo  from '../../assets/logos/agali.svg';
 import ELHatilloLogo  from '../../assets/logos/elhatillo.svg';
@@ -85,10 +90,22 @@ export const getIconComponent = (name) => {
             return  <CoursesLogo />
         case 'languages':
             return  <LanguagesLogo />
-        case 'extracurricular-activities':
+        case 'publications':
             return  <ExtracurricularActivitiesLogo />  
         case 'hobbies':
-            return  <HobbiesLogo />                
+            return  <HobbiesLogo />
+        case 'running':
+                return  <RunningLogo />
+        case 'python':
+                return  <HobbiesLogo />
+        case 'listening':
+            return  <ListeningLogo />
+        case 'reading':
+            return  <ReadingLogo />  
+        case 'speaking':
+            return  <SpeakingLogo />
+        case 'writing':
+                return  <WritingLogo />                       
         default:
             break;
     }

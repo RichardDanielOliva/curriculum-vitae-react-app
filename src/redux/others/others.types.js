@@ -1,9 +1,7 @@
-import OthersActionTypes from './others.types';
 
-export const displayOrHiddenCourses = () => ({
-    type: OthersActionTypes.DISPLAY_OR_HIDDEN_COURSES
-})
-
-export const displayOrHiddenAllCourses = () => ({
-    type: OthersActionTypes.DISPLAY_OR_HIDDEN_ALL_COURSES
-})
+const OthersActionTypes = {
+    DISPLAY_OR_HIDDEN_SECTION: 'DISPLAY_OR_HIDDEN_SECTION',
+    DISPLAY_OR_HIDDEN_ALL_COURSES: 'DISPLAY_OR_HIDDEN_ALL_COURSES'
+  };
+  
+export default OthersActionTypes;
