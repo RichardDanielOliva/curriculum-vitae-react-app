@@ -13,7 +13,7 @@ const Navigation = () => {
         
             <nav className="navbar navbar-expand-lg navbar-dark fixed-top" id="sideNav">
                 <Link className="navbar-brand js-scroll-trigger" to="#page-top">
-                    <span className="d-block d-lg-none">{name} {lastName}</span>
+                    <span className="d-block d-lg-none">RICHARD {lastName}</span>
 
                     <span className="d-none d-lg-block">
                         <img className="img-fluid img-profile rounded-circle mx-auto mb-2" src="images/profile.jpg" alt=""/>
