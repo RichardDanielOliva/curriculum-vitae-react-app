@@ -26,11 +26,9 @@ export const SectionContainer = styled.div`
     ${getSectionContainer}
     margin-top: 22%;
     height: 100%;
-    font-size: 87%;
 
     @media (min-width: 500px) {
         margin-top: 18%;
-        font-size: 100%;
     }
 
     @media (min-width: 600px) {

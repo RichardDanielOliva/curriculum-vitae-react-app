@@ -7,9 +7,16 @@ h1, h2, h3 {
 }
 
 body {
-    padding-top: 2vh;     
+    padding-top: 2vh;
+    font-size: 87%;     
 }
 
+
+@media (min-width: 500px) {
+  body {
+    font-size: 100%;     
+}
+}
 
 @media (min-width: 992px) {
   body {
