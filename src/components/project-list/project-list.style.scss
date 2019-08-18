@@ -18,11 +18,13 @@
 }
 
 .project-list-card{
-    width: 340px;
-    margin: 0% 1%;
+    width: 94%;
 
     @media (min-width: 600px) {
-        width: 415px;
+        margin: 0% 1%;
+    }
+
+    @media (min-width: 600px) {
         margin: 0% 1%;
     }
 

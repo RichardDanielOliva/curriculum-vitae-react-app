@@ -14,8 +14,6 @@ const OthersIcon = ({name, nameLogo, displayOrHiddenCourses, filterHidden, optio
             </TitleContainer>
             
             <Logo 
-                width = "60px"
-                height = "60px"
                 nameLogo={nameLogo}
                 optionSelected={optionSelected}
                 onClick={()=> displayOrHiddenCourses(nameLogo)}>

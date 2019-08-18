@@ -24,6 +24,28 @@ const getSectionContainer = props => {
 
 export const SectionContainer = styled.div`
     ${getSectionContainer}
-    margin-top: 8%;
+    margin-top: 22%;
     height: 100%;
+    font-size: 87%;
+
+    @media (min-width: 500px) {
+        margin-top: 18%;
+        font-size: 100%;
+    }
+
+    @media (min-width: 600px) {
+        margin-top: 9%;
+    }
+
+    @media (min-width: 768px) {
+        margin-top: 10%;
+    }
+
+    @media (min-width: 992px) {
+        margin-top: 5%;
+    }
+
+    @media (min-width: 1200px) {
+        margin-top: 3%;
+    }
 `;

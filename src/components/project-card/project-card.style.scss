@@ -37,18 +37,20 @@
         background-size: cover;
         opacity: 0.1;
         position: absolute;
-        width: 340px;
+        width: 65%;
+
+        @media (min-width: 600px) {
+            width: 60%;
+        }
     
         @media (min-width: 768px) {
-            width: 415px;
-
             h3 {
                 font-size: 0.500em
             }
         }
     
         @media (min-width: 992px) {
-            width: 335px;
+            width: 34%;
 
             h3 {
                 font-size: 0.450em
@@ -57,7 +59,7 @@
         }
     
         @media (min-width: 1200px) {
-            width: 404px;
+            width: 34%;
 
             h3 {
                 font-size: 0.500em
@@ -152,15 +154,21 @@
 }
 
 .card-icon{
-    height: 40px;
-    width: 40px;
+    height: 30px;
+    width: 30px;
     margin: 5px;
     border-radius: 100%;
     fill: rgb(0, 0, 0);
 
-        
+    @media (min-width: 500px) {
+        height: 35px;
+        width: 35px;
+    }
+    
     @media (min-width: 600px) {
         margin: 10px;
+        height: 40px;
+        width: 40px;
     }
 
     @media (min-width: 992px) {

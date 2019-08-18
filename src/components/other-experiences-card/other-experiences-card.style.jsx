@@ -22,9 +22,14 @@ export const BackgroundColorFlexContainer = styled.div`
     margin: 1%;
     z-index: -10;
     width: ${({width}) => width};
-    height: ${({height}) => height};
+    height: auto;
+
     ${backgroundDefaultColor};
     overflow: hidden;
+
+    @media (min-width: 500px) {
+        height: ${({height}) => height};
+    }
 `;
 
 export const OtherExperiencesContainer = ({

@@ -11,7 +11,7 @@ const Education = () =>{
 
     return(
         <EducationSectionContainer>
-            <h1>EDUCACION</h1>
+            <h1>FORMACIÓN</h1>
                 
             {schoolsInfo.map(({id, ...otherProps}) => (
                 <SchoolCardContainer>

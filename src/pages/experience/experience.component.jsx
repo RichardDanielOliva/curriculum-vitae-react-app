@@ -11,7 +11,7 @@ const Experience = () => {
 
     return(
         <ExperienceSectionContainer>
-            <h1> EXPERIENCIA </h1>
+            <h1> EXPERIENCIA LABORAL</h1>
                 
             {worksExperience.map(({id, ...otherProps}) => (
                 <WorkCardContainer>

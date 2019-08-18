@@ -63,14 +63,14 @@ const getLogoStyle = props => {
 };
 
 export const Logo = styled.div`
-    width: 40px;
-    height: 40px;
-    margin: 4px;
+    width: 34px;
+    height: 34px;
+    margin: 7px;
     
     @media (min-width: 600px) {
-        width: 45px;
-        height: 45px;
-        margin: 6px;
+        width: 40px;
+        height: 40px;
+        margin: 8px;
     }
 
     @media (min-width: 768px) {

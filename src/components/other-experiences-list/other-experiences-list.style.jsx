@@ -8,8 +8,12 @@ export const OtherExperienceListContainer = styled.div`
 
 export const CardSectionLeft = styled.div`
     ${displayFlexColumn}
-        width: 84%;
+    width: 95%;
 
+    @media (min-width: 500px) {
+        width: 84%;
+    }
+        
     @media (min-width: 1200px) {
         width: 42%;
     }
@@ -28,13 +32,22 @@ export const OtherCard = styled.div`
 
 export const TimelineSection = styled.div`
     ${displayFlexColumn}
+    display: none;
+
+    @media (min-width: 500px) {
+    display: block;
+    }
 `;
 
 export const CardSectionRigth = styled.div`
     ${displayFlexColumn}
-    position: absolute;
-    margin-top: -400;
-    width: 76%;
+    width: 95%;
+
+    @media (min-width: 500px) {
+        position: absolute;
+        margin-top: -400;
+        width: 76%;
+    }
 
     @media (min-width: 992px) {
         position: absolute;

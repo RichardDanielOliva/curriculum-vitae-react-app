@@ -11,6 +11,8 @@ const getFilterContainerStyle = props => {
 
 export const FilterContainer = styled.div`
     ${getFilterContainerStyle}
+
+    z-index: 100;
 `;
 
 const getTitleContainerStyle = props => {
@@ -32,6 +34,11 @@ export const fixedTopNav = css`
     width: 95%;
     position: fixed; 
     background-color: rgba(255, 255, 255,0.7);
+
+    @media (min-width: 768) {
+      top: 12vh;
+      width: 75%;
+    }
 
     @media (min-width: 992px) {
       top: 0vh;

@@ -1,10 +1,13 @@
 import React from 'react';
 import {Link, withRouter} from 'react-router-dom';
-
+import { connect } from 'react-redux';
 import { useTranslation } from 'react-i18next';
+
+import {collapseNavBar} from '../../redux/navigation/navigation.action';
 import './navigation.style.scss';
 
-const Navigation = () => {
+
+const Navigation = ({navbarCollapse, collapseNavBar}) => {
     const { t } = useTranslation();
     const  navigationSection  = t('navigationSection');
     const { name, lastName} = t('contactInfo');
@@ -20,16 +23,16 @@ const Navigation = () => {
                     </span>
                 </Link>
 
-                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <button className="navbar-toggler" type="button" onClick={() => collapseNavBar("collapse navbar-collapse show")}>
                     <span className="navbar-toggler-icon"></span>
                 </button>
                 
-                <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                <div className={navbarCollapse} id="navbarSupportedContent">
                     <ul className="navbar-nav">
                         {
                             navigationSection.map(({id, sectionName, urlLink}) => (
                                 <li key={id} className="nav-item">
-                                    <Link className="nav-link js-scroll-trigger" to={urlLink}>{sectionName}</Link>
+                                    <Link className="nav-link js-scroll-trigger" onClick={() => collapseNavBar("collapse navbar-collapse")} to={urlLink}>{sectionName}</Link>
                                 </li>
                             ))
                         }
@@ -40,4 +43,12 @@ const Navigation = () => {
     );
 }
 
-export default withRouter(Navigation);
+const mapStateToProps = state => ({
+    navbarCollapse: state.navigation.navigationClassName,
+})
+
+const mapDispatchToProps = dispatch => ({
+    collapseNavBar: (navbarClassName) => dispatch(collapseNavBar(navbarClassName))
+  });
+
+export default connect(mapStateToProps, mapDispatchToProps)(withRouter(Navigation));

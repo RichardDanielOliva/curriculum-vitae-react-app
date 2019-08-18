@@ -21,8 +21,6 @@ const CourseList = ({skills}) =>{
                     .sort((a,b) => {
                         let element1 = a.issueDate
                         let element2 = b.issueDate
-                        console.log(element1)
-                        console.log(element2)
                         return element1 ? element2.substring(element1.length-5, element1.length)-element1.substring(element2.length-5, element2.length) : element1.substring(element2-5, element2.length)-2020
                     }
                     )

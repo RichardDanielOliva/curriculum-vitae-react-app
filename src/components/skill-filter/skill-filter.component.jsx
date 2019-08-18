@@ -14,7 +14,7 @@ const SkillFilter = ({filterHidden}) => {
                 Lenguajes de programación y herramientas    
             </h3>
             <div className={filterHidden ? 'top-fixed-filter' : 'filter-core'}>
-                <p className="text-muted">Selecciona para visualizar proyectos asociados!</p>
+                <p className="text-muted text-selection">Selecciona para visualizar proyectos asociados!</p>
                 <div className="icons-section">
                     <div className="icon-item">
                         <FrontEndIcons/>
