@@ -24,7 +24,9 @@ import { ReactComponent as WorkExperiencesLogo } from '../../assets/logos/others
 import { ReactComponent as ListeningLogo } from '../../assets/logos/listening.svg';
 import { ReactComponent as ReadingLogo } from '../../assets/logos/reading.svg';
 import { ReactComponent as SpeakingLogo } from '../../assets/logos/speaking.svg';
+import { ReactComponent as PythonLogo } from '../../assets/logos/python.svg';
 import { ReactComponent as WritingLogo } from '../../assets/logos/writing.svg';
+import { ReactComponent as ComingSoonLogo } from '../../assets/logos/coming-soon.svg';
 
 import AgaliLogo  from '../../assets/logos/agali.svg';
 import ELHatilloLogo  from '../../assets/logos/elhatillo.svg';
@@ -97,7 +99,7 @@ export const getIconComponent = (name) => {
         case 'running':
                 return  <RunningLogo />
         case 'python':
-                return  <HobbiesLogo />
+                return  <PythonLogo />
         case 'listening':
             return  <ListeningLogo />
         case 'reading':
@@ -106,6 +108,8 @@ export const getIconComponent = (name) => {
             return  <SpeakingLogo />
         case 'writing':
                 return  <WritingLogo />                       
+        case 'coming-soon':
+            return  <ComingSoonLogo /> 
         default:
             break;
     }

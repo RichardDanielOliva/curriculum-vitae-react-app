@@ -119,16 +119,16 @@
     "projects": [
         {
             "id": "0",
-            "title": "Curriculum vitae",
-            "urlRepository": "",
-            "description": "Pagina web donde se despliega ...",
+            "title": "curriculum-vitae-react-app",
+            "urlRepository": "https://github.com/RichardDanielOliva/curriculum-vitae-react-app",
+            "description": "Desarrollo de una Single Page Aplication para Curriculum Vitae",
             "skillsImproved": [
-                "html",
+                "Html",
                 "css",
-                "javascript",
-                "react",
-                "bootstrap",
-                "yarn"
+                "Javascript",
+                "React",
+                "Bootstrap",
+                "Yarn"
             ],
             "tecnologies": [
                 {
@@ -166,12 +166,18 @@
         },
         {
             "id": "1",
-            "title": "Administrative book app",
-            "urlRepository": "",
-            "description": "Proyecto incorporar las diversas soluciones que ofrece Spring",
+            "title": "book-administrative-learning-app",
+            "urlRepository": "https://github.com/RichardDanielOliva/book-administrative-learning-app",
+            "description": "Proyecto desarrollado durante las practicas de 1er ano del FP Dual con el objetivo de conocer las diversas soluciones que ofrece Spring FrameWork",
             "skillsImproved": [
-                "java",
-                "spring"
+                "Java",
+                "Spring Framework 5",
+                "Spring MVC",
+                "Spring Data JPA",
+                "Spring Security",
+                "Spring HATEOS",
+                "JSP",
+                "Maven"
             ],
             "tecnologies": [
                 {
@@ -185,13 +191,8 @@
                     "skillAsociated": "spring"
                 },
                 {
-                    "id": "2",
-                    "tecnologyName": "Spring data",
-                    "skillAsociated": "spring"
-                },
-                {
                     "id": "3",
-                    "tecnologyName": "Spring data",
+                    "tecnologyName": "maven",
                     "skillAsociated": "maven"
                 },
                 {
@@ -203,13 +204,18 @@
             "comments": ""
         },
         {
-            "id": "1",
-            "title": "Administrative book app",
+            "id": "2",
+            "title": "reactive-book-administrative-learning-app",
             "urlRepository": "",
-            "description": "Proyecto incorporar las diversas soluciones que ofrece Spring",
+            "description": "Proyecto de formacion para aplicar las soliciones que ofrece Spring para el desarrollo de aplicaciones reactivas",
             "skillsImproved": [
-                "java",
-                "spring"
+                "Java",
+                "Spring Framework 5",
+                "Spring Boot 2",
+                "Spring WebFlux",
+                "Spring Web Client",
+                "Spring Data MongoDB",
+                "Maven"
             ],
             "tecnologies": [
                 {
@@ -218,10 +224,6 @@
                 },
                 {
                     "tecnologyName": "Spring MVC",
-                    "skillAsociated": "spring"
-                },
-                {
-                    "tecnologyName": "Spring data",
                     "skillAsociated": "spring"
                 },
                 {
@@ -272,7 +274,8 @@
             "issueDate": "Enero, 2019",
             "noExpirationDate": "false",
             "credentialId": "VE5QELJEGN3F",
-            "credentialUrl": "https://www.coursera.org/account/accomplishments/verify/VE5QELJEGN3F"
+            "credentialUrl": "https://www.coursera.org/account/accomplishments/verify/VE5QELJEGN3F",
+            "logoName": "python"
         },
         {
             "id": "1",
@@ -282,7 +285,8 @@
             "issueDate": "Enero, 2019",
             "noExpirationDate": "false",
             "credentialId": "XT5GXQXAW34R",
-            "credentialUrl": "https://www.coursera.org/account/accomplishments/verify/XT5GXQXAW34R"
+            "credentialUrl": "https://www.coursera.org/account/accomplishments/verify/XT5GXQXAW34R",
+            "logoName": "python"
         },
         {
             "id": "2",
@@ -292,7 +296,8 @@
             "issueDate": "Agosto, 2018",
             "noExpirationDate": "false",
             "credentialId": "HPQQ2TU9XMKV",
-            "credentialUrl": "https://www.coursera.org/account/accomplishments/verify/HPQQ2TU9XMKV"
+            "credentialUrl": "https://www.coursera.org/account/accomplishments/verify/HPQQ2TU9XMKV",
+            "logoName": "css"
         },
         {
             "id": "3",
@@ -302,7 +307,8 @@
             "issueDate": "Agosto, 2018",
             "noExpirationDate": "false",
             "credentialId": "PJL48Z3DGDLN",
-            "credentialUrl": "https://www.coursera.org/account/accomplishments/verify/PJL48Z3DGDLN"
+            "credentialUrl": "https://www.coursera.org/account/accomplishments/verify/PJL48Z3DGDLN",
+            "logoName": "javascript"
         },
         {
             "id": "4",
@@ -312,7 +318,8 @@
             "issueDate": "Agosto, 2018",
             "noExpirationDate": "false",
             "credentialId": "C7FUGKSRMWP2",
-            "credentialUrl": "https://www.coursera.org/account/accomplishments/verify/C7FUGKSRMWP2"
+            "credentialUrl": "https://www.coursera.org/account/accomplishments/verify/C7FUGKSRMWP2",
+            "logoName": "css"
         },
         {
             "id": "5",
@@ -322,17 +329,8 @@
             "issueDate": "Julio, 2018",
             "noExpirationDate": "false",
             "credentialId": "YBDYUU4U8MDJ",
-            "credentialUrl": "https://www.coursera.org/account/accomplishments/verify/YBDYUU4U8MDJ"
-        },
-        {
-            "id": "6",
-            "title": "Volviendo más ecológica la economía: Ciudades Sustentables",
-            "issuingOrganization": "Universidad de Lund en Coursera",
-            "issueDateFinished": "true",
-            "issueDate": "febero, 2018",
-            "noExpirationDate": "false",
-            "credentialId": "AMN3KYJAQR5B",
-            "credentialUrl": "https://www.coursera.org/account/accomplishments/verify/AMN3KYJAQR5B"
+            "credentialUrl": "https://www.coursera.org/account/accomplishments/verify/YBDYUU4U8MDJ",
+            "logoName": "html"
         },
         {
             "id": "7",
@@ -342,7 +340,8 @@
             "issueDate": "",
             "noExpirationDate": "",
             "credentialId": "",
-            "credentialUrl": ""
+            "credentialUrl": "",
+            "logoName": "react"
         },
         {
             "id": "8",
@@ -352,7 +351,8 @@
             "issueDate": "",
             "noExpirationDate": "",
             "credentialId": "",
-            "credentialUrl": ""
+            "credentialUrl": "",
+            "logoName": "spring"
         },
         {
             "id": "9",
@@ -362,7 +362,8 @@
             "issueDate": "",
             "noExpirationDate": "",
             "credentialId": "",
-            "credentialUrl": ""
+            "credentialUrl": "",
+            "logoName": "spring"
         }
     ],
     "languages": [

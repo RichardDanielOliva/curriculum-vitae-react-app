@@ -6,7 +6,9 @@ import { connect } from 'react-redux';
 import ProjectCard from '../../components/project-card/project-card.component';
 import './project-list.style.scss';
 
-const hasToBeDisplay = (skillSelected, skillsImproved) => {
+const hasToBeDisplay = (skillSelected, tecnologies) => {
+    let skillsImproved= tecnologies.map(tecnology => {return tecnology.skillAsociated});
+
     let result = false;
     skillSelected.forEach(skill => {
         if(skillsImproved.includes(skill)){
@@ -25,9 +27,9 @@ const ProyectList = ({skills}) =>{
                 <h3 className="project-list-title">PROYECTOS</h3>
                 <div className="project-list-cards">
                 {
-                    projectsData.map(({id, skillsImproved, ...otherProps}) =>  (
-                    <Element key={id} name={`hello-element${id}`} className={hasToBeDisplay(skills, skillsImproved) ? `my-4 project-list-card box` :`my-4 project-list-card hidden`} >
-                        <ProjectCard  {...otherProps}/>
+                    projectsData.map(({id, tecnologies, ...otherProps}) =>  (
+                    <Element key={id} name={`hello-element${id}`} className={hasToBeDisplay(skills, tecnologies) ? `my-4 project-list-card box` :`my-4 project-list-card hidden`} >
+                        <ProjectCard tecnologies={tecnologies} {...otherProps}/>
                     </Element>
             ))}
                 </div>

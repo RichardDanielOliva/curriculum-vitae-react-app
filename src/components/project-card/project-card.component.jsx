@@ -5,7 +5,7 @@ import {getIconComponent} from '../utils/icons.utils';
 
 import './project-card.style.scss';
 
-const ProjectCard = (({title, urlRepository, description, tecnologies, comments, skills}) => (
+const ProjectCard = (({title, urlRepository, description, tecnologies, comments,skillsImproved, skills}) => (
     <div className="project-card">
 
         <div className="project-card-header">
@@ -19,7 +19,7 @@ const ProjectCard = (({title, urlRepository, description, tecnologies, comments,
             
                     <div className="icons-card">
                         {
-                            tecnologies.map(({tecnologyName, skillAsociated, id}) => (
+                            tecnologies.map(({skillAsociated, id}) => (
                                 <div Key={id} className={(skills.includes(skillAsociated)) ? 'card-icon card-icon-selected' : 'card-icon'}>
                                     {getIconComponent(skillAsociated)}
                                 </div>
@@ -30,16 +30,37 @@ const ProjectCard = (({title, urlRepository, description, tecnologies, comments,
                 {/* </CardHeader>   */}
         </div>
 
-        <div class="project-card-body">
+        <div className="project-card-body">
 
-            <p class="project-card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus, ex, recusandae. Facere modi sunt, quod quibusdam dignissimos neque rem nihil ratione est placeat vel, natus non quos laudantium veritatis sequi.Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi.</p>
+            <p className="project-card-text">{description}</p>
 
+            <h5 className="project-card-text">Tecnologias:</h5>
+            <div className="project-card-tecnologies">
+                <ul className="project-card-tecnologies-ul">
+                    {
+                        skillsImproved
+                            .filter((item, idx) => idx < 4)
+                            .map((skill)=>
+                            <li>{skill}</li>
+                            )
+                    }
+                </ul>
+                <ul className="project-card-tecnologies-ul">
+                    {
+                        skillsImproved
+                            .filter((item, idx) => idx > 4)
+                            .map((skill)=>
+                            <li>{skill}</li>
+                            )
+                    }
+                </ul>
+            </div>
         </div>
         <div class="project-card-footer">
             <p class="project-card-text">Repositorio: </p>
 
             <div className="card-icon">
-                <a className="card-footer-icon" href="https://github.com/RichardDanielOliva" >
+                <a className="card-footer-icon" href={urlRepository} >
                     {getIconComponent('github')}
                 </a>
             </div>

@@ -3,13 +3,13 @@ import React from 'react';
 import {CourseCardContainer, Logo, TitleContainer, SubTitleContainer, DateContainer} from './course-card.style';
 import {getIconComponent} from '../utils/icons.utils';
 
-const CourseCard = (({title, issuingOrganization, issueDateFinished, issueDate, noExpirationDate, credentialId, credentialUrl, id}) => (
+const CourseCard = (({title, issuingOrganization, issueDateFinished, issueDate, noExpirationDate, credentialId, credentialUrl, logoName, id}) => (
         <CourseCardContainer>
                 <Logo 
                         width = "80px"
                         height = "80px"
                 >
-                    {getIconComponent("java")}
+                    {getIconComponent(logoName)}
                 </Logo>
                 <TitleContainer>
                         <h4>{title}</h4>

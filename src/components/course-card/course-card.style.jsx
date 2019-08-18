@@ -1,6 +1,5 @@
 import styled, { css } from 'styled-components';
 import {displayFlexColumn, displayFlexRowWrap} from '../common-styles/containers.style';
-import {icon, circleIcon} from '../common-styles/icon.styles';
 
 export const CourseCardContainer = styled.div`
    ${displayFlexColumn}
@@ -8,6 +7,13 @@ export const CourseCardContainer = styled.div`
    margin-top: 10%;
    background-color: rgba(255,255,255,0.6);
 `;
+
+export const circleIcon = css`
+    border-radius: 100%;
+    fill: rgb(255, 255, 255);
+    background-color: rgba(0, 156, 143,1);
+    padding: 15px;
+    `; 
 
 export const Logo = styled.div`
     width: ${({width}) => width};

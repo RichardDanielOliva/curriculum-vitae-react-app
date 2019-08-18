@@ -7,6 +7,7 @@ import CourseList from '../../components/course-list/course-list.component';
 import LanguagesList from '../../components/language-list/language-list.component';
 import PublicationList from '../../components/publication-list/publication-list.component';
 import HobbiesList from '../../components/hobbies-list/hobbies-list.component';
+import CommingSoon from '../../components/coming-soon/coming-soon.component';
 
 import {OtherContainer, FilterContainer, SectionContainer} from './others.styles';
 
@@ -24,7 +25,7 @@ const Others = ({optionSelected, filterHidden}) => {
                 <LanguagesList/>
             </SectionContainer> 
             <SectionContainer optionSelected={optionSelected} sectionName="publications">
-                <PublicationList/>
+                <CommingSoon/>
             </SectionContainer> 
             <SectionContainer optionSelected={optionSelected} sectionName="hobbies">
                 <HobbiesList/>

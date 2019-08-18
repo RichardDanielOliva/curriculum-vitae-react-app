@@ -19,7 +19,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    align-content: center;
     overflow: hidden;
+
+    h3 {
+        font-size: 1.25em
+    }
 
     .project-card-header-content{
         display: flex;
@@ -36,15 +41,49 @@
     
         @media (min-width: 768px) {
             width: 415px;
+
+            h3 {
+                font-size: 0.500em
+            }
         }
     
         @media (min-width: 992px) {
             width: 335px;
+
+            h3 {
+                font-size: 0.450em
+            }
+            
         }
     
         @media (min-width: 1200px) {
             width: 404px;
+
+            h3 {
+                font-size: 0.500em
+            }
+            
         }
+    }
+
+    @media (min-width: 768px) {
+        h3 {
+            font-size: 1.45em
+        }
+    }
+
+    @media (min-width: 992px) {
+        h3 {
+            font-size: 1.25em
+        }
+        
+    }
+
+    @media (min-width: 1200px) {
+        h3 {
+            font-size: 1.45em
+        }
+        
     }
 }
 
@@ -52,7 +91,35 @@
     margin: 2%;
     display: flex;
     flex-direction: column;
+    align-content: center;
+  
     text-align: center;
+
+    @media (min-width: 992px) {
+        height: 260px;
+    }
+
+    @media (min-width: 1200px) {
+        height: 240px;
+    }
+}
+
+.project-card-tecnologies{
+    display: flex;
+    text-align: left;
+    justify-content: center;
+}
+
+.project-card-tecnologies-ul{
+    margin: 0% 5%;
+
+    @media (min-width: 992px) {
+        margin: 0%;
+    }
+
+    @media (min-width: 1200px) {
+        margin: 0% 5%;
+    }
 }
 
 .project-card-footer{
