@@ -2,7 +2,7 @@
   "name": "curriculum-vitae-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://RichardDanielOliva.github.io/",
+  "homepage": "https://RichardDanielOliva.github.io/curriculum-vitae-react-app",
   "dependencies": {
     "gh-pages": "^2.1.1",
     "i18next": "^17.0.6",
