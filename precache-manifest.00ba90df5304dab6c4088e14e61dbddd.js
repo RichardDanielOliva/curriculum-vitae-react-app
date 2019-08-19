@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5afa0797d5998461044fb57bb27e51d0",
+    "revision": "3f80bdbbb7f146f7bbaf09473b32b778",
     "url": "/curriculum-vitae-react-app/index.html"
   },
   {
-    "revision": "e440a2fa50a47cec0d56",
+    "revision": "b3c011497e35456af7e8",
     "url": "/curriculum-vitae-react-app/static/css/main.9e3810ff.chunk.css"
   },
   {
-    "revision": "225df772da05553a857e",
-    "url": "/curriculum-vitae-react-app/static/js/2.ec343703.chunk.js"
+    "revision": "2d774df31219c6e8de12",
+    "url": "/curriculum-vitae-react-app/static/js/2.7546295f.chunk.js"
   },
   {
-    "revision": "e440a2fa50a47cec0d56",
-    "url": "/curriculum-vitae-react-app/static/js/main.27e603b5.chunk.js"
+    "revision": "b3c011497e35456af7e8",
+    "url": "/curriculum-vitae-react-app/static/js/main.897e20a6.chunk.js"
   },
   {
     "revision": "ae043a4a20a8640ad0bd",
