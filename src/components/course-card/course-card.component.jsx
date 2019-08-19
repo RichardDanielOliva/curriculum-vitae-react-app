@@ -3,7 +3,7 @@ import React from 'react';
 import {CourseCardContainer, Logo, TitleContainer, SubTitleContainer, DateContainer} from './course-card.style';
 import {getIconComponent} from '../utils/icons.utils';
 
-const CourseCard = (({title, issuingOrganization, issueDateFinished, issueDate, noExpirationDate, credentialId, credentialUrl, logoName, id}) => (
+const CourseCard = (({title, issuingOrganization, issueDateFinished, issueDate, credentialId, credentialUrl, logoName}) => (
         <CourseCardContainer>
                 <Logo 
                         width = "80px"
@@ -18,7 +18,7 @@ const CourseCard = (({title, issuingOrganization, issueDateFinished, issueDate, 
                         <h5>{issuingOrganization}</h5>
                 </SubTitleContainer>
                 
-                { issueDateFinished ?
+                { credentialUrl ?
                 <DateContainer>{issueDate} <br/> Certificado: <a href={credentialUrl}> {credentialId}</a>  </DateContainer>
                 : <DateContainer>En curso</DateContainer>}
         </CourseCardContainer>

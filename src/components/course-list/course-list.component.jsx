@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next';
 import { connect } from 'react-redux';
 
 import CourseCard from '../course-card/course-card.component';
-import {CourseListContainer, TitleContainer, ListContainer, CourseCardContainer} from './course-list.style';
+import {CourseListContainer, ListContainer, CourseCardContainer} from './course-list.style';
 
 const CourseList = ({skills}) =>{
     const [ t ] = useTranslation();
@@ -11,10 +11,6 @@ const CourseList = ({skills}) =>{
 
     return(
         <CourseListContainer>
-            {/* <TitleContainer>
-                <h1>Cursos</h1>
-            </TitleContainer> */}
-
             <ListContainer>
                 {coursesData
                     .filter((item, idx) => idx < 10)

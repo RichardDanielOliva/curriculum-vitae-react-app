@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next';
 import OtherExperiencesCard from '../other-experiences-card/other-experiences-card.component';
 import TimeLine from '../time-line/time-line.component';
 
-import {OtherExperienceListContainer, RowContainer, CardSectionLeft, OtherCard, TimelineSection, CardSectionRigth} from './other-experiences-list.style';
+import {OtherExperienceListContainer, RowContainer, CardSectionLeft, TimelineSection, CardSectionRigth} from './other-experiences-list.style';
 
 const OtherExperienceList = () =>{
     const [ t ] = useTranslation();

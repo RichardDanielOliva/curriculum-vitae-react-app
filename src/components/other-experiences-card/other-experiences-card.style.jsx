@@ -1,13 +1,7 @@
-import React, { Component }  from 'react';
-import styled, { css } from 'styled-components';
+import React  from 'react';
+import styled from 'styled-components';
 
 import {displayFlexColumn, displayFlexRowWrap, displayFlexColumnItemCenterXY, BackgroundImageContainer, backgroundDefaultColor} from '../common-styles/containers.style';
-
-// export const OtherExperiencesContainer = styled.div`
-//    ${displayFlexColumn}
-//    border: 1px solid rgba(0, 0, 0,0.2);
-//    ${backgroundDefaultColor}
-// `;
 
 export const ContentContainer =  styled.div`
     position: absolute;

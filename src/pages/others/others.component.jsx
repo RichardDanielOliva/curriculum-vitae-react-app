@@ -5,11 +5,10 @@ import OthersFilter from '../../components/others-filter/others-filter.component
 import OtherExperienceList from '../../components/other-experiences-list/other-experiences-list.component';
 import CourseList from '../../components/course-list/course-list.component';
 import LanguagesList from '../../components/language-list/language-list.component';
-import PublicationList from '../../components/publication-list/publication-list.component';
 import HobbiesList from '../../components/hobbies-list/hobbies-list.component';
 import CommingSoon from '../../components/coming-soon/coming-soon.component';
 
-import {OtherContainer, FilterContainer, SectionContainer} from './others.styles';
+import {OtherContainer, SectionContainer} from './others.styles';
 
 const Others = ({optionSelected, filterHidden}) => {
     return(

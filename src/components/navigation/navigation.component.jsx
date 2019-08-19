@@ -11,12 +11,13 @@ const Navigation = ({navbarCollapse, collapseNavBar}) => {
     const { t } = useTranslation();
     const  navigationSection  = t('navigationSection');
     const { name, lastName} = t('contactInfo');
+    const firtname = name.split(" ")[0];
 
     return (
         
             <nav className="navbar navbar-expand-lg navbar-dark fixed-top" id="sideNav">
                 <Link className="navbar-brand js-scroll-trigger" to="#page-top">
-                    <span className="d-block d-lg-none">RICHARD {lastName}</span>
+                    <span className="d-block d-lg-none">{firtname} {lastName}</span>
 
                     <span className="d-none d-lg-block">
                         <img className="img-fluid img-profile rounded-circle mx-auto mb-2" src="images/profile.jpg" alt=""/>

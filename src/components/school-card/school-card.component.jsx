@@ -4,7 +4,7 @@ import './school-card.style.scss';
 
 import {getIconComponent} from '../utils/icons.utils';
 
-const SchoolCard = (({school, degree, fieldOfStudy, startYear, endYear, grade, description, imgUrl}) => (
+const SchoolCard = (({school, degree, fieldOfStudy, startYear, endYear, location, imgUrl}) => (
     <div className='school-card-component'>
         <div className="school-logo">
             <div className="school-icon">
@@ -16,6 +16,7 @@ const SchoolCard = (({school, degree, fieldOfStudy, startYear, endYear, grade, d
                 <div>
                     <h3>{degree}</h3>
                     <h5>{school}</h5>
+                    <p>{location}</p>
                 </div>
                     <div className="">
                         <p>{fieldOfStudy}</p>
