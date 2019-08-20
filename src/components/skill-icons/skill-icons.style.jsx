@@ -1,6 +1,31 @@
 import styled, { css } from 'styled-components';
-import {displayFlexColumn, hidden, displayFlexRow} from '../common-styles/containers.style';
-import {icon, selectedIcon} from '../common-styles/icon.styles';
+
+const displayFlexColumn = css`
+    display: flex;
+    flex-direction: column;
+`;
+
+const hidden = css`
+    display: none;
+    `;
+
+const displayFlexRow = css`
+    display: flex;
+    `;
+
+const icon = css`
+    border-radius: 100%;
+    fill: rgb(0, 0, 0);
+    
+    &:hover {
+        fill: rgb(0, 156, 143);
+      }
+    `;
+
+const selectedIcon = css`
+    border-radius: 100%;
+    fill: rgb(0, 156, 143);
+    `;
 
 export const BackendContainer = styled.div`
     ${displayFlexColumn}

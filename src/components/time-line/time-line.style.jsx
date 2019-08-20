@@ -1,6 +1,16 @@
 import styled, { css } from 'styled-components';
-import {displayFlexColumn} from '../common-styles/containers.style';
-import {circleIcon} from '../common-styles/icon.styles';
+
+const displayFlexColumn = css`
+    display: flex;
+    flex-direction: column;
+`;
+
+const circleIcon = css`
+    border-radius: 100%;
+    fill: rgb(255, 255, 255);
+    background-color: rgba(0, 156, 143,1);
+    padding: 12px;
+    `; 
 
 export const TimeLineContainer = styled.div`
     ${displayFlexColumn}

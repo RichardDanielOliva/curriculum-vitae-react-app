@@ -14,10 +14,11 @@ function App(props) {
   return (
     <div className="App">
       <Navigation/>
+      
       <Redirect
             from="/"
             to="/acerca-de" />
-      <div class="">
+
       <Switch>
           <Route path='/habilidades' component={Skills}/>
           <Route path='/skills' component={Skills}/>
@@ -33,10 +34,7 @@ function App(props) {
           
           <Route path='/acerca-de' component={About}/>
           <Route path='/about' component={About}/>   
-
-   
       </Switch>
-      </div>
     </div>
   );
 }

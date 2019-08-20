@@ -1,5 +1,9 @@
 import styled, { css } from 'styled-components';
-import {displayFlexRow, displayFlexColumn, fixedTopNav} from '../common-styles/containers.style';
+
+export const displayFlexColumn = css`
+    display: flex;
+    flex-direction: column;
+    `;
 
 export const OtherExperienceListContainer = styled.div`
     ${displayFlexColumn}

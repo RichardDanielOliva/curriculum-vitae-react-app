@@ -1,5 +1,8 @@
-import styled, { css } from 'styled-components';
-import {hidden} from '../../components/common-styles/containers.style';
+import styled, {css} from 'styled-components';
+
+const hidden = css`
+    display: none;
+    `;
 
 export const OtherContainer = styled.div`
     padding: 10% 5%;

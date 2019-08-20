@@ -1,5 +1,9 @@
 import styled, { css } from 'styled-components';
-import {displayFlexColumn, hidden} from '../common-styles/containers.style';
+
+export const displayFlexColumn = css`
+    display: flex;
+    flex-direction: column;
+    `;
 
 const getFilterContainerStyle = props => {
     if (props.filterHidden) {
@@ -14,6 +18,10 @@ export const FilterContainer = styled.div`
 
     z-index: 100;
 `;
+
+export const hidden = css`
+    display: none;
+    `;
 
 const getTitleContainerStyle = props => {
     if (props.filterHidden) {

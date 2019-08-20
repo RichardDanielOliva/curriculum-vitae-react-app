@@ -1,7 +1,24 @@
-import React, { Component }  from 'react';
+import React from 'react';
 import styled, { css } from 'styled-components';
 
-import {displayFlexColumn, displayFlexRowWrap, backgroundDefaultColor, displayFlexColumnItemCenterXY} from '../common-styles/containers.style';
+const displayFlexColumn = css`
+    display: flex;
+    flex-direction: column;
+    `;
+
+const displayFlexRowWrap = css`
+    display: flex;
+    flex-wrap: wrap;
+    `;
+
+const displayFlexColumnItemCenterXY = css`
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    `;
 
 export const BackgroundImageContainer = styled.div`
     width: 100%;

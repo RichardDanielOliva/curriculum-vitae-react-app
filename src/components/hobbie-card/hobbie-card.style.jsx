@@ -1,10 +1,16 @@
 import styled, { css } from 'styled-components';
-import {displayFlexColumn} from '../common-styles/containers.style';
-import {icon, circleIcon} from '../common-styles/icon.styles';
 
 export const HobbieCardContainer = styled.div`
-   ${displayFlexColumn}
+    display: flex;
+    flex-direction: column;
 `;
+
+export const circleIcon = css`
+    border-radius: 100%;
+    fill: rgb(255, 255, 255);
+    background-color: rgba(0, 156, 143,1);
+    padding: 12px;
+    `; 
 
 export const Logo = styled.div`
     width: 100px;

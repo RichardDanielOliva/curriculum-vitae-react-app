@@ -1,8 +1,8 @@
 import styled, { css } from 'styled-components';
-import {displayFlexColumn, displayFlexRowWrap} from '../common-styles/containers.style';
 
 export const CourseCardContainer = styled.div`
-   ${displayFlexColumn}
+   display: flex;
+   flex-direction: column;
    border: 1px solid rgba(0, 0, 0,0.2);
    margin-top: 10%;
    background-color: rgba(255,255,255,0.6);
@@ -23,15 +23,17 @@ export const Logo = styled.div`
 `;
 
 export const TitleContainer = styled.div`
-    ${displayFlexRowWrap}
+    display: flex;
+    flex-wrap: wrap;
     text-align: center;
     margin: 0 auto;
 `;
 
 export const SubTitleContainer = styled.div`
+    display: flex;
+    flex-wrap: wrap;
     text-align: center;
     margin: 0 auto;
-    ${displayFlexRowWrap}
 `;
 
 export const DateContainer = styled.div`

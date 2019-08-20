@@ -1,6 +1,13 @@
 import styled, { css } from 'styled-components';
-import {displayFlexColumn, displayFlexRow} from '../common-styles/containers.style';
-import {icon, selectedIcon} from '../common-styles/icon.styles';
+
+export const displayFlexColumn = css`
+    display: flex;
+    flex-direction: column;
+    `;
+
+export const displayFlexRow = css`
+    display: flex;
+    `;
 
 export const IconContainer = styled.div`
    ${displayFlexColumn}
@@ -49,6 +56,14 @@ export const LevelText = styled.div`
         font-size: 1em;
       }
 `;
+     
+export const icon = css`
+    border-radius: 100%;
+    fill: rgb(0, 0, 0);
+    &:hover {
+        fill: rgb(0, 156, 143);
+      }
+    `;
 
 export const Logo = styled.div`
     width: ${({width}) => width};

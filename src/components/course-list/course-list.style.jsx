@@ -1,14 +1,19 @@
+import React  from 'react';
 import styled, { css } from 'styled-components';
-import React, { Component }  from 'react';
-import {displayFlexRowWrap, displayFlexColumn, displayFlexColumnItemCenterXY, backgroundDefaultColor} from '../common-styles/containers.style';
-import {icon, selectedIcon} from '../common-styles/icon.styles';
-
-// export const CourseListContainer = styled.div`
-//     ${displayFlexRowWrap}
-// `;
 
 export const ContentContainer =  styled.div`
     z-index: 10;
+`;
+
+export const backgroundDefaultColor =  css`
+    background: -moz-linear-gradient(-45deg, rgba(239,255,189,1) 0%, rgb(201, 201, 201) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(239,255,189,1)), color-stop(100%, rgba(0,156,143,1)));
+    background: -webkit-linear-gradient(-45deg, rgba(239,255,189,1) 0%, rgb(201, 201, 201) 100%);
+    background: -o-linear-gradient(-45deg, rgba(239,255,189,1) 0%, rgb(201, 201, 201) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(239,255,189,1) 0%, rgb(202, 202, 202) 100%);
+    // background: linear-gradient(135deg, rgba(239,255,189,1) 0%, rgba(0,156,143,1) 100%);
+    background: linear-gradient(135deg, rgb(215, 247, 244) 0%, rgb(204, 204, 204) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efffbd', endColorstr='#009c8f', GradientType=1 );
 `;
 
 export const BackgroundColorFlexContainer = styled.div`
@@ -55,7 +60,8 @@ export const CourseListContainer = ({
 }
 
 export const ListContainer = styled.div`
-    ${displayFlexRowWrap}
+    display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 `;
 
@@ -78,7 +84,8 @@ export const CourseCardContainer = styled.div`
 `;
 
 export const TitleContainer = styled.div`
+    display: flex;
+    flex-wrap: wrap;
     text-align: center;
     margin-top: 2%;
-    ${displayFlexRowWrap}
 `;

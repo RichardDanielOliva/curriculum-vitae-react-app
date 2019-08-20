@@ -1,5 +1,14 @@
 import styled, { css } from 'styled-components';
-import {displayFlexColumn, displayFlexRowWrap} from '../common-styles/containers.style';
+
+export const displayFlexColumn = css`
+    display: flex;
+    flex-direction: column;
+    `;
+
+export const displayFlexRowWrap = css`
+    display: flex;
+    flex-wrap: wrap;
+    `;
 
 export const LanguageCardContainer = styled.div`
    ${displayFlexColumn}
