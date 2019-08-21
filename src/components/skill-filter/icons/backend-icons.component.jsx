@@ -1,8 +1,8 @@
 import React from 'react';
 import { connect } from 'react-redux';
 
-import {getBackEndIcons, getIconComponent} from '../utils/icons.utils';
-import {addOrRemoveSkill} from '../../redux/skill/skill.action';
+import {getBackEndIcons, getIconComponent} from '../../utils/icons.utils';
+import {addOrRemoveSkill} from '../../../redux/skill/skill.action';
 
 import {BackendContainer, TitleContainer, IconContainer, Logo} from './skill-icons.style';
 

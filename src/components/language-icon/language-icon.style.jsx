@@ -13,7 +13,7 @@ export const IconContainer = styled.div`
    ${displayFlexColumn}
 `;
 
-export const SVGCicleContainer = styled.div`
+export const HeaderContainer = styled.div`
     ${displayFlexRow}
 `;
 
@@ -73,4 +73,29 @@ export const Logo = styled.div`
 
 export const LogoNameContainer= styled.div`
     margin-left: 2%;
+`;
+
+export const SvgContainer = styled.svg`
+    width: 200px;
+    height: 150px;
+
+    @media (min-width: 768px) {
+        height: 200px;
+      }
+    transform: rotate(-90deg);
+`;
+
+export const CircleMeterContainer = styled.circle`
+    stroke: #e6e6e6;
+    stroke-width: 12;
+    fill: transparent;
+`;
+
+export const CircleValueContainer = styled.circle`
+    stroke: rgba(0, 156, 143, 0.5);
+    stroke-linecap: round;
+    stroke-width: 12;
+    fill: transparent;
+    stroke-dasharray: 339.292;
+    stroke-dashoffset: ${({strokeDashOffSet}) => strokeDashOffSet}; 
 `;

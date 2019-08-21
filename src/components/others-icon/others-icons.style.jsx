@@ -56,7 +56,7 @@ const getIconContainerStyle = props => {
 export const IconContainer = styled.div`
     display: flex;
     flex-direction: column;
-    justify-content:center;
+    justify-content: center;
     ${getIconContainerStyle}
 `;
 

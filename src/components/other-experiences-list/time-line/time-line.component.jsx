@@ -1,6 +1,6 @@
 import React from 'react';
 
-import {getIconComponent} from '../utils/icons.utils';
+import {getIconComponent} from '../../utils/icons.utils';
 
 import {TimeLineContainer, Logo, Line} from './time-line.style';
 

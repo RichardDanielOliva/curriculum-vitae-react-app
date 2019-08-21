@@ -18,7 +18,7 @@ export const AboutSectionContainer = styled.div`
     }
 `;
 
-export const ContactInfoContainer = styled.div`
+export const ContactContainer = styled.div`
     margin-top: 2%;
 `;
 

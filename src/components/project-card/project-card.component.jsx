@@ -3,40 +3,35 @@ import { connect } from 'react-redux';
 
 import {getIconComponent} from '../utils/icons.utils';
 
-import './project-card.style.scss';
+import {CardContainer, CardHeaderContainer, TitleContainer, CardHeaderIconsContainer, IconContainer, CardBodyContainer, CardBodyDescriptionContainer, CardBodyTitleContainer, CardBodyTecnologiesSectionContainer, CardBodyTecnologiesListContainer, CardFooterContainer, CardFooterTextContainer, CardFooterIconContainer, CardFooterIconLinkContainer} from './project-card.style';
 
-const ProjectCard = (({title, urlRepository, description, tecnologies, comments,skillsImproved, skills}) => (
-    <div className="project-card">
+const ProjectCard = (({title, urlRepository, description, tecnologies, skillsImproved, skills}) => (
+    <CardContainer>
 
-        <div className="project-card-header">
-            <div className="card-image"
-            style={{
-                backgroundImage: `url(https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20%2814%29.jpg)`
-              }}/>
-              {/* <CardHeader height="110px"> */}
-                <div className="project-card-header-content">
-                    <h3 className="card-header-title">{title}</h3>
-            
-                    <div className="icons-card">
-                        {
-                            tecnologies.map(({skillAsociated, id}) => (
-                                <div Key={id} className={(skills.includes(skillAsociated)) ? 'card-icon card-icon-selected' : 'card-icon'}>
-                                    {getIconComponent(skillAsociated)}
-                                </div>
-                            ))
-                            }
-                    </div>
-                </div>
-                {/* </CardHeader>   */}
-        </div>
+        <CardHeaderContainer>
+            <TitleContainer>
+                {title}
+            </TitleContainer>
+            <CardHeaderIconsContainer>
+                {
+                    tecnologies.map(({skillAsociated, id}) => (
+                        <IconContainer
+                            selected= {skills.includes(skillAsociated)}
+                            >
+                            {getIconComponent(skillAsociated)}
+                        </IconContainer>
+                    ))}
+            </CardHeaderIconsContainer>
+        </CardHeaderContainer>
 
-        <div className="project-card-body">
+        <CardBodyContainer>
 
-            <p className="project-card-text">{description}</p>
+            <CardBodyDescriptionContainer>{description}</CardBodyDescriptionContainer>
 
-            <h5 className="project-card-text">Tecnologias:</h5>
-            <div className="project-card-tecnologies">
-                <ul className="project-card-tecnologies-ul">
+            <CardBodyTitleContainer>Tecnologias:</CardBodyTitleContainer>
+
+            <CardBodyTecnologiesSectionContainer>
+                <CardBodyTecnologiesListContainer>
                     {
                         skillsImproved
                             .filter((item, idx) => idx < 4)
@@ -44,8 +39,8 @@ const ProjectCard = (({title, urlRepository, description, tecnologies, comments,
                             <li>{skill}</li>
                             )
                     }
-                </ul>
-                <ul className="project-card-tecnologies-ul">
+                </CardBodyTecnologiesListContainer>
+                <CardBodyTecnologiesListContainer>
                     {
                         skillsImproved
                             .filter((item, idx) => idx > 4)
@@ -53,21 +48,23 @@ const ProjectCard = (({title, urlRepository, description, tecnologies, comments,
                             <li>{skill}</li>
                             )
                     }
-                </ul>
-            </div>
-        </div>
-        <div class="project-card-footer">
-            <p class="project-card-text">Repositorio: </p>
+                </CardBodyTecnologiesListContainer>
+            </CardBodyTecnologiesSectionContainer>
 
-            <div className="card-icon">
-                <a className="card-footer-icon" href={urlRepository} >
+        </CardBodyContainer>
+
+        <CardFooterContainer>
+            <CardFooterTextContainer>Repositorio: </CardFooterTextContainer>
+
+            <CardFooterIconContainer>
+                <CardFooterIconLinkContainer href={urlRepository} >
                     {getIconComponent('github')}
-                </a>
-            </div>
+                </CardFooterIconLinkContainer>
+            </CardFooterIconContainer>
             
-        </div>
+        </CardFooterContainer>
         
-    </div>
+    </CardContainer>
 ));
 
 const mapStateToProps = state => ({

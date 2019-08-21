@@ -7,7 +7,7 @@ import { CommingSoonContainer, TitleContainer, LogoContainer} from './coming-soo
 const CommingSoon = () =>{
 
     return(
-        <CommingSoonContainer>
+        <CommingSoonContainer id="">
             <TitleContainer>
                 <h1>En construccion</h1>
             </TitleContainer>

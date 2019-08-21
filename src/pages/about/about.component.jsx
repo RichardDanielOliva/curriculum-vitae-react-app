@@ -1,43 +1,46 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 
-import ContactInfo from '../../components/contact-info/contact-info.component';
+import ContactInfoContainer from '../../components/contact-info/contact-info.container';
 import { ReactComponent as GithubLogo } from '../../assets/logos/mark-github.svg';
 import { ReactComponent as LinkedinLogo } from '../../assets/logos/linkedin.svg';
 
-import {AboutSectionContainer, ContactInfoContainer, ProfileTextContainer, LogosContainer, LogoItemContainer} from './about.styles';
+import {AboutSectionContainer, ContactContainer, ProfileTextContainer, LogosContainer, LogoItemContainer} from './about.styles';
 
 const About = () => {
     const { t } = useTranslation();
-    const contactInfo = t('contactInfo');
+
+    const profileParagraphs = t('profileParagraphs');
+    const linkedInUrl = 'https://www.linkedin.com/in/richard-daniel-oliva-denis-1a706a107/';
+    const GithubUrl = 'https://github.com/RichardDanielOliva';
 
     return( 
-      <AboutSectionContainer>
-            <ContactInfoContainer>
-                <ContactInfo contactInfo={contactInfo}/>
-            </ContactInfoContainer>
+      <AboutSectionContainer id="AboutSectionContainer">
+
+            <ContactContainer>
+                <ContactInfoContainer />
+            </ContactContainer>
           
             <ProfileTextContainer>
-                <p>
-                En constante reciclaje profesional y reinventándome día a día. En la actualidad me encuentro en proceso de aprendizaje para adquirir los conocimientos necesarios y asi ejercer como profesional de la programación. 
-                </p>
-                <p>
-                Herramientas: Del lado del cliente, React y Redux. Del lado del servidor Java EE, con Spring, Hibernate y Maven.
-                </p>
+                {
+                    profileParagraphs.map((paragraphs) =>
+                        <p>{paragraphs}</p>)
+                }
             </ProfileTextContainer>
 
             <LogosContainer>
-                <a href="https://www.linkedin.com/in/richard-daniel-oliva-denis-1a706a107/" >
+                <a href={linkedInUrl} >
                     <LogoItemContainer>
                         <LinkedinLogo/>
                     </LogoItemContainer>   
                 </a>
-                <a href="https://github.com/RichardDanielOliva" >
+                <a href={GithubUrl} >
                     <LogoItemContainer>
                         <GithubLogo/>
                     </LogoItemContainer> 
                 </a>
             </LogosContainer>
+
       </AboutSectionContainer>
     )
 }

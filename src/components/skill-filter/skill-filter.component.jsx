@@ -1,8 +1,8 @@
 import React from 'react';
 import { connect } from 'react-redux';
 
-import FrontEndIcons from '../skill-icons/frontend-icons.component';
-import BackEndIcons from '../skill-icons/backend-icons.component';
+import FrontEndIcons from './icons/frontend-icons.component';
+import BackEndIcons from './icons/backend-icons.component';
 
 import './skill-filter.style.scss';
 

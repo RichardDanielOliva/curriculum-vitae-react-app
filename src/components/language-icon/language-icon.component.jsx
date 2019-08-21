@@ -2,8 +2,7 @@ import React from 'react';
 
 import {getIconComponent} from '../utils/icons.utils';
 
-import './language-icon.style.scss';
-import {IconContainer,SVGCicleContainer, ContentContainer, LevelText, Logo, LogoNameContainer } from './language-icon.style';
+import {IconContainer,HeaderContainer, ContentContainer, LevelText, Logo, LogoNameContainer, SvgContainer, CircleMeterContainer, CircleValueContainer} from './language-icon.style';
 
 const getDashoffset = (value) => {
     let RADIUS = 54;
@@ -16,13 +15,13 @@ const LanguageIcon = ({language:{name, level, logoLevel, logo}}) => {
 
     return (
         <IconContainer>
-            <SVGCicleContainer>
-                <svg class="progress-bar-language" viewBox="0 0 120 120">
-                    <circle class="progress__meter" cx="60" cy="60" r="54" stroke-width="12" fill="transparent"/>
-                    <circle class="progress__value" cx="60" cy="60" r="54" stroke-width="12" fill="transparent" stroke-dasharray="339.292" stroke-dashoffset={getDashoffset(logoLevel)} />
-                </svg>
+            <HeaderContainer>
+                <SvgContainer viewBox="0 0 120 120">
+                    <CircleMeterContainer  cx="60" cy="60" r="54"/>
+                    <CircleValueContainer cx="60" cy="60" r="54" strokeDashOffSet={getDashoffset(logoLevel)} />
+                </SvgContainer>
                 <LevelText><h1>{level}</h1></LevelText>
-            </SVGCicleContainer>
+            </HeaderContainer>
             <ContentContainer>
                 <Logo 
                     width = "60px"

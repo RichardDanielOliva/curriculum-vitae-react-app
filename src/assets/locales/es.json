@@ -2,7 +2,7 @@
     "contactInfo": {
         "name": "RICHARD DANIEL",
         "lastName": "OLIVA DENIS",
-        "profile": "Desarrollador",
+        "profile": "Desarrollador ",
         "profileStrong": "Web",
         "profileComplement": "en formación",
         "address": "Santiago de Compostela, CP 17503",
@@ -11,6 +11,10 @@
         "phone": "602 620 382",
         "mail": "danielolivadenis@gmail.com"
     },
+    "profileParagraphs":[
+        "En constante reciclaje profesional y reinventándome día a día. En la actualidad me encuentro en proceso de aprendizaje para adquirir los conocimientos necesarios y asi ejercer como profesional de la programación.",
+        "Herramientas: Del lado del cliente, React y Redux. Del lado del servidor Java EE, con Spring, Hibernate y Maven."
+        ],
     "navigationSection": [
         {
             "id": "0",
@@ -197,11 +201,6 @@
                     "id": "3",
                     "tecnologyName": "maven",
                     "skillAsociated": "maven"
-                },
-                {
-                    "id": "4",
-                    "tecnologyName": "jsp",
-                    "skillAsociated": "java"
                 }
             ],
             "comments": ""
@@ -232,10 +231,6 @@
                 {
                     "tecnologyName": "Spring data",
                     "skillAsociated": "maven"
-                },
-                {
-                    "tecnologyName": "jsp",
-                    "skillAsociated": "java"
                 }
             ],
             "comments": ""
@@ -404,7 +399,7 @@
     "languages": [
         {
             "id": "0",
-            "name": "Ingles",
+            "name": "Inglés",
             "globalLevel": "Independent user B2",
             "speaking": {
                 "name":"Speaking",
@@ -433,7 +428,7 @@
         },
         {
             "id": "1",
-            "name": "Espanol",
+            "name": "Español",
             "globalLevel": "Nativo",
             "speaking": {
                 "name":"Speaking",
