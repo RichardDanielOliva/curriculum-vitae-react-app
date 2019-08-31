@@ -19,7 +19,7 @@ const CourseCard = (({title, issuingOrganization, issueDateFinished, issueDate, 
                 </SubTitleContainer>
                 
                 { credentialUrl ?
-                <DateContainer>{issueDate} <br/> Certificado: <a href={credentialUrl}> {credentialId}</a>  </DateContainer>
+                <DateContainer>{issueDate} <br/> Certificado: <br/> <a href={credentialUrl}> {credentialId}</a>  </DateContainer>
                 : <DateContainer>En curso</DateContainer>}
         </CourseCardContainer>
 ));

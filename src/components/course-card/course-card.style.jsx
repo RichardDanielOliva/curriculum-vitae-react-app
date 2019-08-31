@@ -6,6 +6,10 @@ export const CourseCardContainer = styled.div`
    border: 1px solid rgba(0, 0, 0,0.2);
    margin-top: 10%;
    background-color: rgba(255,255,255,0.6);
+
+   @media (min-width: 768px) {
+    min-height: 230px;
+    }
 `;
 
 export const circleIcon = css`

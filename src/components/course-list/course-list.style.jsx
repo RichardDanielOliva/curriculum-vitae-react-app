@@ -72,6 +72,7 @@ export const CourseCardContainer = styled.div`
 
     @media (min-width: 768px) {
         width: 46%;
+        min-height: 290px;
     }
 
     @media (min-width: 992px) {
