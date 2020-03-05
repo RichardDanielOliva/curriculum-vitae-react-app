@@ -11,7 +11,11 @@
         "phone": "602 620 382",
         "mail": "danielolivadenis@gmail.com"
     },
-"navigationSection": [
+    "profileParagraphs":[
+        "Constantly retraining and reinventing myself day by day. I am in the process of learning to acquire the necessary knowledge and thus exercise as a professional software developer.",
+        "Developer Tools: On client side: ReactJS and Redux. On the server side: Java Jakarta with Spring Framework 5, Hibernate and Maven. Database: Oracle and MongoDB"
+        ],
+    "navigationSection": [
         {
             "id": "0",
             "sectionName": "About",
@@ -42,13 +46,13 @@
         {
             "id": "0",
             "school": "IES Fernando Wirtz Suárez",
-            "degree": "FP Dual Desarrollo de Aplicaciones Web",
-            "fieldOfStudy": "Programación",
+            "degree": "Development of Web Application",
+            "fieldOfStudy": "Software Developer",
             "startYear": "2018",
-            "endYear": "2020",
+            "endYear": "Current",
             "grade": "",
-            "description": "",
-            "imgUrl": ""
+            "description": "A Coruña, Galician, Spain",
+            "imgUrl": "wirtz"
         },
         {
             "id": "1",
@@ -73,37 +77,542 @@
             "imgUrl": ""
         }
     ],
+    "worksExperience": [
+        {
+            "id": "0",
+            "title": "Prácticas FP Dual - Desarrollo de software",
+            "company": "Indra software labs",
+            "companyImgUrl": "indra",
+            "location": "A Coruña, Galicia, España",
+            "startDate": "Marzo, 2019",
+            "endDate": "Agosto, 2019",
+            "description": ""
+        },
+        {
+            "id": "1",
+            "title": "Apoyo a la Investigación - Prácticas Máster Universitario",
+            "company": "Asociación Universitaria de Ciencias Sociais y Humanidades Galicia Iberoamérica (AGALI)",
+            "companyImgUrl": "agali",
+            "location": "Santiago de Compostela, Galicia, España",
+            "startDate": "Enero, 2017",
+            "endDate": "Mayo, 2017",
+            "description": ""
+        },
+        {
+            "id": "2",
+            "title": "Planificador urbano",
+            "company": "Alcaldía del Hatillo",
+            "companyImgUrl": "elhatillo",
+            "location": "Caracas, Distrito Capital, Venezuela",
+            "startDate": "Abril, 2016",
+            "endDate": "Junio, 2016",
+            "description": "Departamento de Planificación Urbana y Catastro: Coordinación de Urbanismo Municipal"
+        },
+        {
+            "id": "3",
+            "title": "Planificador de Espacios Urbanos  - Prácticas Grado",
+            "company": "PDVSA La Estancia",
+            "companyImgUrl": "pdvsaLaEstancia",
+            "location": "Caracas, Distrito Capital, Venezuela",
+            "startDate": "Enero, 2015",
+            "endDate": "Mayo, 2015",
+            "description": ""
+        }
+       
+    ],
     "projects": [
         {
             "id": "0",
-            "title": "Curriculum vitae",
-            "urlRepository": "",
-            "description": "Pagina web donde se despliega ...",
-            "tecnologies": [
+            "title": "curriculum-vitae-react-app",
+            "urlRepository": "https://github.com/RichardDanielOliva/curriculum-vitae-react-app",
+            "description": "Desarrollo de una single-page application (SPA) para visualizar un Curriculum Vitae",
+            "skillsImproved": [
                 "Html",
                 "css",
-                "JavaScript",
+                "Javascript",
                 "React",
                 "Bootstrap",
                 "Yarn"
+            ],
+            "tecnologies": [
+                {
+                    "id": "0",
+                    "tecnologyName": "Html",
+                    "skillAsociated": "html"
+                },
+                {
+                    "id": "1",
+                    "tecnologyName": "css",
+                    "skillAsociated": "css"
+                },
+                {
+                    "id": "2",
+                    "tecnologyName": "JavaScript",
+                    "skillAsociated": "javascript"
+                },
+                {
+                    "id": "3",
+                    "tecnologyName": "React",
+                    "skillAsociated": "react"
+                },
+                {
+                    "id": "4",
+                    "tecnologyName": "Bootstrap",
+                    "skillAsociated": "bootstrap"
+                },
+                {
+                    "id": "5",
+                    "tecnologyName": "Yarn",
+                    "skillAsociated": "yarn"
+                }
             ],
             "comments": ""
         },
         {
             "id": "1",
-            "title": "Administrative book app",
-            "urlRepository": "",
-            "description": "Proyecto incorporar las diversas soluciones que ofrece Spring",
-            "tecnologies": [
+            "title": "book-administrative-learning-app",
+            "urlRepository": "https://github.com/RichardDanielOliva/book-administrative-learning-app",
+            "description": "Proyecto desarrollado durante las prácticas del 1er año de FP Dual con el objetivo de conocer las diversas soluciones que ofrece Spring FrameWork",
+            "skillsImproved": [
                 "Java",
+                "Spring Framework 5",
                 "Spring MVC",
-                "Spring data",
-                "Maven",
-                "jsp"
+                "Spring Data JPA",
+                "Spring Security",
+                "Spring HATEOS",
+                "JSP",
+                "Maven"
+            ],
+            "tecnologies": [
+                {
+                    "id": "0",
+                    "tecnologyName": "java",
+                    "skillAsociated": "java"
+                },
+                {
+                    "id": "1",
+                    "tecnologyName": "Spring MVC",
+                    "skillAsociated": "spring"
+                },
+                {
+                    "id": "3",
+                    "tecnologyName": "maven",
+                    "skillAsociated": "maven"
+                }
+            ],
+            "comments": ""
+        },
+        {
+            "id": "2",
+            "title": "reactive-book-administrative-learning-app",
+            "urlRepository": "https://github.com/RichardDanielOliva/reactive-book-administrative-learning-app.git",
+            "description": "Proyecto de formación donde se aplican las soluciones que ofrece Spring FrameWork 5 para el desarrollo de aplicaciones reactivas",
+            "skillsImproved": [
+                "Java",
+                "Spring Framework 5",
+                "Spring Boot 2",
+                "Spring WebFlux",
+                "Spring Web Client",
+                "Spring Data MongoDB",
+                "Maven"
+            ],
+            "tecnologies": [
+                {
+                    "tecnologyName": "java",
+                    "skillAsociated": "java"
+                },
+                {
+                    "tecnologyName": "Spring MVC",
+                    "skillAsociated": "spring"
+                },
+                {
+                    "tecnologyName": "Spring data",
+                    "skillAsociated": "maven"
+                }
+            ],
+            "comments": ""
+        },
+        {
+            "id": "3",
+            "title": "sudoku",
+            "urlRepository": "https://github.com/RichardDanielOliva/sudoku",
+            "description": "Conjunto de funcionalidades que permiten jugar al Sudoku a través del terminal de un ordenador. Además, permite resolver cualquier tipo de Sudoku",
+            "skillsImproved": [
+                "Java"
+            ],
+            "tecnologies": [
+                {
+                    "tecnologyName": "java",
+                    "skillAsociated": "java"
+                }
+            ],
+            "comments": ""
+        },
+        {
+            "id": "4",
+            "title": "las-damas-espanolas",
+            "urlRepository": "https://github.com/RichardDanielOliva/las-damas-espanolas",
+            "description": "Programa que permite jugar al juego de las damas espanolas a través del terminal de un ordenador mediante ProgramasLasDamas.java",
+            "skillsImproved": [
+                "Java"
+            ],
+            "tecnologies": [
+                {
+                    "tecnologyName": "java",
+                    "skillAsociated": "java"
+                }
             ],
             "comments": ""
         }
+    ],
+    "othersLogo": [
+        {
+            "id": "0",
+            "name": "Otras experiencias laborales",
+            "nameLogo": "others-experience"
+        },
+        {
+            "id": "1",
+            "name": "Cursos Realizados",
+            "nameLogo": "courses"
+        },
+        {
+            "id": "2",
+            "name": "Idiomas",
+            "nameLogo": "languages"
+        },
+        {
+            "id": "3",
+            "name": "Publicaciones",
+            "nameLogo": "publications"
+        },
+        {
+            "id": "4",
+            "name": "Aficiones",
+            "nameLogo": "hobbies"
+        }
+    ],
+    "courses": [
+        {
+            "id": "0",
+            "title": "Data Collection and Processing with Python",
+            "issuingOrganization": "Universidad de Michigan en Coursera",
+            "issueDateFinished": "true",
+            "issueDate": "Enero, 2019",
+            "issueDateFormat": "2019-01-01",
+            "noExpirationDate": "false",
+            "credentialId": "VE5QELJEGN3F",
+            "credentialUrl": "https://www.coursera.org/account/accomplishments/verify/VE5QELJEGN3F",
+            "logoName": "python"
+        },
+        {
+            "id": "1",
+            "title": "Python Functions, Files, and Dictionaries",
+            "issuingOrganization": "Universidad de Michigan en Coursera",
+            "issueDateFinished": "true",
+            "issueDate": "Enero, 2019",
+            "issueDateFormat": "2019-01-01",
+            "noExpirationDate": "false",
+            "credentialId": "XT5GXQXAW34R",
+            "credentialUrl": "https://www.coursera.org/account/accomplishments/verify/XT5GXQXAW34R",
+            "logoName": "python"
+        },
+        {
+            "id": "2",
+            "title": "Advanced Styling with Responsive Design",
+            "issuingOrganization": "Universidad de Michigan en Coursera",
+            "issueDateFinished": "true",
+            "issueDate": "Agosto, 2018",
+            "issueDateFormat": "2018-08-01",
+            "noExpirationDate": "false",
+            "credentialId": "HPQQ2TU9XMKV",
+            "credentialUrl": "https://www.coursera.org/account/accomplishments/verify/HPQQ2TU9XMKV",
+            "logoName": "css"
+        },
+        {
+            "id": "3",
+            "title": "Interactivity with JavaScript",
+            "issuingOrganization": "Universidad de Michigan en Coursera",
+            "issueDateFinished": "true",
+            "issueDateFormat": "2018-08-01",
+            "noExpirationDate": "false",
+            "credentialId": "PJL48Z3DGDLN",
+            "credentialUrl": "https://www.coursera.org/account/accomplishments/verify/PJL48Z3DGDLN",
+            "logoName": "javascript"
+        },
+        {
+            "id": "4",
+            "title": "Introduction to CSS3",
+            "issuingOrganization": "Universidad de Michigan en Coursera",
+            "issueDateFinished": "true",
+            "issueDateFormat": "2018-08-01",
+            "noExpirationDate": "false",
+            "credentialId": "C7FUGKSRMWP2",
+            "credentialUrl": "https://www.coursera.org/account/accomplishments/verify/C7FUGKSRMWP2",
+            "logoName": "css"
+        },
+        {
+            "id": "5",
+            "title": "Introduction to HTML5",
+            "issuingOrganization": "Universidad de Michigan en Coursera",
+            "issueDateFinished": "true",
+            "issueDateFormat": "2018-07-01",
+            "noExpirationDate": "false",
+            "credentialId": "YBDYUU4U8MDJ",
+            "credentialUrl": "https://www.coursera.org/account/accomplishments/verify/YBDYUU4U8MDJ",
+            "logoName": "html"
+        },
+        {
+            "id": "7",
+            "title": "Complete React Developer in 2019 (w/ Redux, Hooks, GraphQL)",
+            "issuingOrganization": "Udemy",
+            "issueDateFinished": "false",
+            "issueDate": "",
+            "issueDateFormat": "2020-08-01",
+            "noExpirationDate": "",
+            "credentialId": "",
+            "credentialUrl": "",
+            "logoName": "react"
+        },
+        {
+            "id": "8",
+            "title": "Spring Framework 5: Beginner to Guru",
+            "issuingOrganization": "Udemy",
+            "issueDateFinished": "false",
+            "issueDate": "",
+            "issueDateFormat": "2020-08-01",
+            "noExpirationDate": "",
+            "credentialId": "",
+            "credentialUrl": "",
+            "logoName": "spring"
+        },
+        {
+            "id": "9",
+            "title": "Spring: Spring Security",
+            "issuingOrganization": "LinkedIn Learning",
+            "issueDateFinished": "true",
+            "issueDate": "Agosto, 2019",
+            "issueDateFormat": "2019-08-23",
+            "noExpirationDate": "false",
+            "credentialId": "AfQD23gP_vxqKQm7X7TnDtLfESO",
+            "credentialUrl": "http://www.linkedin.com/learning/spring-spring-security",
+            "logoName": "spring"
+        },
+        {
+            "id": "10",
+            "title": "Spring: Spring MVC",
+            "issuingOrganization": "LinkedIn Learning",
+            "issueDateFinished": "true",
+            "issueDate": "Agosto, 2019",
+            "issueDateFormat": "2019-08-27",
+            "noExpirationDate": "false",
+            "credentialId": "AQ0zPWD4rHyGVDW3pubec6odjEOb",
+            "credentialUrl": "http://www.linkedin.com/learning/spring-spring-mvc",
+            "logoName": "spring"
+        },
+        {
+            "id": "11",
+            "title": "Spring: Spring Data",
+            "issuingOrganization": "LinkedIn Learning",
+            "issueDateFinished": "true",
+            "issueDate": "Agosto, 2019",
+            "issueDateFormat": "2019-08-22",
+            "noExpirationDate": "false",
+            "credentialId": "AXnRJAcaun1pv1BkpueqCI8Oz2N4",
+            "credentialUrl": "http://www.linkedin.com/learning/spring-spring-data",
+            "logoName": "spring"
+        },
+        {
+            "id": "12",
+            "title": "Spring: Framework In Depth",
+            "issuingOrganization": "LinkedIn Learning",
+            "issueDateFinished": "true",
+            "issueDate": "Agosto, 2019",
+            "issueDateFormat": "2019-08-20",
+            "noExpirationDate": "false",
+            "credentialId": "AYXdeYhONxvacbtZyVMmYmVLsq-2",
+            "credentialUrl": "http://www.linkedin.com/learning/spring-framework-in-depth",
+            "logoName": "spring"
+        }
+    ],
+    "languages": [
+        {
+            "id": "0",
+            "name": "Inglés",
+            "globalLevel": "Independent user B2",
+            "speaking": {
+                "name":"Speaking",
+                "level": "B2",
+                "logoLevel": "60",
+                "logo":"speaking"
+            },
+            "listening": {
+                "name":"Listening",
+                "level": "C1",
+                "logoLevel": "70",
+                "logo":"listening"
+            },
+            "writing": {
+                "name":"Writing",
+                "level": "B2",
+                "logoLevel": "60",
+                "logo":"writing"
+            },
+            "reading": {
+                "name":"Reading",
+                "level": "C1",
+                "logoLevel": "75",
+                "logo":"reading"
+            }
+        },
+        {
+            "id": "1",
+            "name": "Español",
+            "globalLevel": "Nativo",
+            "speaking": {
+                "name":"Speaking",
+                "level": "NA",
+                "logoLevel": "100",
+                "logo":"speaking"
+            },
+            "listening": {
+                "name":"Listening",
+                "level": "NA",
+                "logoLevel": "100",
+                "logo":"listening"
+            },
+            "writing": {
+                "name":"Writing",
+                "level": "NA",
+                "logoLevel": "100",
+                "logo":"writing"
+            },
+            "reading": {
+                "name":"Reading",
+                "level": "NA",
+                "logoLevel": "100",
+                "logo":"speaking"
+            }
+        }
+    ],
+    "others-experience": [
+        {
+            "id": "0",
+            "title": "Comercial",
+            "issuingOrganization": "Banco Santander",
+            "location": "Santiago de Compostela, Galicia, España",
+            "issueDateFinished": "true",
+            "issueDate": "septiembre, 2017 - octubre, 2017",
+            "description": "Campaña de inscripción de estudiantes de USC"
+        },
+        {
+            "id": "1",
+            "title": "Azafato Deportivo",
+            "issuingOrganization": "RC Deportivo La Coruna",
+            "location": "A Coruña, Galicia, España",
+            "issueDateFinished": "true",
+            "issueDate": "agosto, 2017 - mayo, 2018",
+            "description": "Campaña de inscripción de estudiantes de USC"
+        },
+        {
+            "id": "2",
+            "title": "Comercial Deportivo",
+            "issuingOrganization": "El Corte Inglés, S.A.",
+            "location": "Santiago de Compostela, Galicia, España",
+            "issueDateFinished": "true",
+            "issueDate": "noviembre, 2017 - febrero, 2018",
+            "description": "Campaña de inscripción de estudiantes de USC"
+        },
+        {
+            "id": "3",
+            "title": "Programa de Estudio y Trabajo (Hostelería)",
+            "issuingOrganization": "Carbis Bay Hotel,",
+            "location": "Carbis Bay, Cornwall, Reino Unido",
+            "issueDateFinished": "true",
+            "issueDate": "mayo, 2018 - agosto, 2018",
+            "description": "-Programa de estudio (inglés) y trabajo con prácticas retribuidas en la Hostelería."
+        },
+        {
+            "id": "4",
+            "title": "Repartidor",
+            "issuingOrganization": "Domino's Pizza",
+            "location": "Santiago de Compostela, Galicia, España",
+            "issueDateFinished": "true",
+            "issueDate": "septiembre, 2018 - febrero, 2019",
+            "description": ""
+        }
+    ],
+    "publications": [
+        {
+            "id": "0",
+            "title": "Patrones de distribución territorial de la población extranjera en Galicia, 1997 - 2017",
+            "publisher": "Revista Galega de Economía, Vol. 27-2 (2018)",
+            "publicationDate": "09/01/2018",
+            "authors": [
+                {
+                    "id" : "0",
+                    "name": "Richard Daniel",
+                    "lastname": "Oliva Denis"
+                },
+                {
+                    "id" : "1",
+                    "name":"José Antonio", 
+                    "lastname": " Aldrey Vázquez "
+                }
+            ],
+            "publicationURL": "http://www.usc.es/econo/RGE/Vol27/rge2724.pdf",
+            "description": "Para mayor información: https://ideas.repec.org/a/sdo/regaec/v27y2018i2_4.html"
+        },
+        {
+            "id": "1",
+            "title": "Desorden urbanístico en el área metropolitana de Vigo. ¿Es posible la ordenación?",
+            "publisher": "XXV Congreso de la AGE",
+            "publicationDate": "10/27/2017",
+            "authors": [
+                {
+                    "id" : "0",
+                    "name":"Richard Daniel",
+                    "lastname": "Oliva Denis"
+                },
+                {
+                    "id" : "1",
+                    "name":"Carlos",
+                    "lastname": "Ferrás"
+                },
+                {
+                    "id" : "2",
+                    "name":"Gonzalo",
+                    "lastname": "Silva Solla"
+                },
+                {
+                    "id" : "3",
+                    "name":"Brais",
+                    "lastname": "Leirós López"
+                },
+                {
+                    "id" : "4",
+                    "name":"Jimena",
+                    "lastname": "Varela Rodríguez"
+                },
+                {
+                    "id" : "5",
+                    "name":"Luis",
+                    "lastname": "Romero Fernández"
+                }
+            ],
+            "publicationURL": "https://www.researchgate.net/publication/322550943_DESORDEN_URBANISTICO_EN_EL_AREA_METROPOLITANA_DE_VIGO_ES_POSIBLE_LA_ORDENACION"
+        }
+    ],
+     "hobbies": [
+        {
+            "id": "0",
+            "name": "Atletismo",
+            "nameLogo": "running"
+        },
+        {
+            "id": "1",
+            "name": "Ciclismo",
+            "nameLogo": "hobbies"
+        }
     ]
-
-    
 }
