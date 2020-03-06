@@ -8,16 +8,21 @@ import { FilterContainer, TitleContainer, ContentContainer, SubTitleContainer, I
 const OthersFilter = ({filterHidden}) => {
     const [ t ] = useTranslation();
     const othersLogo = t('othersLogo');
+    const headers = t('page_headers');
 
     return (
         <FilterContainer filterHidden={filterHidden}>
             <TitleContainer filterHidden={filterHidden}>
-                <h1>OTROS</h1>
+                <h1>
+                    {headers.others.title}
+                </h1>
             </TitleContainer>
            
             <ContentContainer filterHidden={filterHidden}>
                 <SubTitleContainer filterHidden={filterHidden}>
-                    <h3>Selecciona para desplegar mas informacion!</h3>
+                    <h3>
+                        {headers.others.subtitle}
+                    </h3>
                 </SubTitleContainer>
                 <IconsContainer>
                     {

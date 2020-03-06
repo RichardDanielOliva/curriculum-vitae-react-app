@@ -617,5 +617,24 @@
             "name": "Ciclismo",
             "nameLogo": "hobbies"
         }
-    ]
+    ],
+    "page_headers":{
+        "education" : {
+            "title":"FORMACIÓN"
+        },
+        "experience":{
+            "title":" EXPERIENCIA LABORAL"
+        },
+        "skills":{
+            "title":"HABILIDADES",
+            "subtitle":"Lenguajes de programación y herramientas",
+            "filterTitle":"Selecciona para visualizar proyectos asociados!",
+            "filterText":"*Ciertas herramientas, como Java o Spring, transcienden el esquema cliente-servidor. Sin embargo, se colocan del lado donde se han utilizado mayormente"
+        },
+        "others":{
+            "title":"OTROS",
+            "subtitle":"Selecciona para desplegar mas informacion!"
+        }
+
+    }
 }

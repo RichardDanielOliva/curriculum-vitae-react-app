@@ -260,27 +260,27 @@
     "othersLogo": [
         {
             "id": "0",
-            "name": "Otras experiencias laborales",
+            "name": "Other work experiences",
             "nameLogo": "others-experience"
         },
         {
             "id": "1",
-            "name": "Cursos Realizados",
+            "name": "Courses",
             "nameLogo": "courses"
         },
         {
             "id": "2",
-            "name": "Idiomas",
+            "name": "Languages",
             "nameLogo": "languages"
         },
         {
             "id": "3",
-            "name": "Publicaciones",
+            "name": "Academic publications",
             "nameLogo": "publications"
         },
         {
             "id": "4",
-            "name": "Aficiones",
+            "name": "Hobbies",
             "nameLogo": "hobbies"
         }
     ],
@@ -486,7 +486,7 @@
         {
             "id": "1",
             "name": "Spain",
-            "globalLevel": "Nativo",
+            "globalLevel": "Native",
             "speaking": {
                 "name":"Speaking",
                 "level": "NA",
@@ -623,5 +623,23 @@
             "name": "Cycling",
             "nameLogo": "hobbies"
         }
-    ]
+    ],
+    "page_headers":{
+        "education" : {
+            "title":"EDUCATION"
+        },
+        "experience" : {
+            "title":"WORKING EXPERIENCE"
+        },
+        "skills":{
+            "title":"SKILLS",
+            "subtitle":"Programming languages and tools",
+            "filterTitle":"Select to display associated projects!",
+            "filterText":"*Certain tools, such as Java or Spring, transcend the client-server scheme. However, they are placed on the side where they have been mostly used"
+        },
+        "others":{
+            "title":"OTHERS",
+            "subtitle":"Select to display more information!"
+        }
+    }
 }

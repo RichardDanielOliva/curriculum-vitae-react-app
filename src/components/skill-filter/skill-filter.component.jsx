@@ -1,4 +1,5 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import { connect } from 'react-redux';
 
 import FrontEndIcons from './icons/frontend-icons.component';
@@ -7,14 +8,20 @@ import BackEndIcons from './icons/backend-icons.component';
 import './skill-filter.style.scss';
 
 const SkillFilter = ({filterHidden}) => {
+    const { t } = useTranslation();
+    const headers = t('page_headers');
     return (
         <div className="skill-filter-component">
-            <h1 className={filterHidden ? 'hidden' : 'filter-title' }>HABILIDADES</h1>
+            <h1 className={filterHidden ? 'hidden' : 'filter-title' }>
+                {headers.skills.title}
+            </h1>
             <h3 className={filterHidden ? 'hidden' : 'filter-subtitle'}>
-                Lenguajes de programación y herramientas    
+                {headers.skills.subtitle}    
             </h3>
             <div className={filterHidden ? 'top-fixed-filter' : 'filter-core'}>
-                <p className="text-muted text-selection">Selecciona para visualizar proyectos asociados!</p>
+                <p className="text-muted text-selection">
+                    {headers.skills.filterTitle}
+                </p>
                 <div className="icons-section">
                     <div className="icon-item">
                         <FrontEndIcons/>
@@ -24,7 +31,9 @@ const SkillFilter = ({filterHidden}) => {
                     </div>
                 </div>
             </div>
-            <small className={filterHidden ? 'hidden' : 'text-muted' }>*Ciertas herramientas, como Java o Spring, transcienden el esquema cliente-servidor. Sin embargo, se colocan del lado donde se han utilizado mayormente </small>
+            <small className={filterHidden ? 'hidden' : 'text-muted' }>
+            {headers.skills.filterText}
+            </small>
     </div>
     )
 }

@@ -9,7 +9,7 @@ const CommingSoon = () =>{
     return(
         <CommingSoonContainer id="">
             <TitleContainer>
-                <h1>En construccion</h1>
+                <h1>Sorry, Under Construction</h1>
             </TitleContainer>
 
             <LogoContainer>

@@ -8,10 +8,11 @@ import {ExperienceSectionContainer, WorkCardContainer} from './experience.style'
 const Experience = () => {
     const { t } = useTranslation();
     const worksExperience = t('worksExperience');
+    const headers = t('page_headers');
 
     return(
         <ExperienceSectionContainer>
-            <h1> EXPERIENCIA LABORAL</h1>
+            <h1>{headers.experience.title}</h1>
                 
             {worksExperience.map(({id, ...otherProps}) => (
                 <WorkCardContainer>
