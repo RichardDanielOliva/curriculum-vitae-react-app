@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5fd3e69fe64086316a3372a53b8cbc1e",
+    "revision": "fcce269a8f973a87f690f463b8764f08",
     "url": "/curriculum-vitae-react-app/index.html"
   },
   {
-    "revision": "9c336d3da27108c336ba",
-    "url": "/curriculum-vitae-react-app/static/css/main.2ba3f57c.chunk.css"
+    "revision": "21e04cd727944b6ffcbe",
+    "url": "/curriculum-vitae-react-app/static/css/main.ca0e43f1.chunk.css"
   },
   {
-    "revision": "7296e440c0df18d715c4",
-    "url": "/curriculum-vitae-react-app/static/js/2.e6ecc50c.chunk.js"
+    "revision": "7c354fa5909562960911",
+    "url": "/curriculum-vitae-react-app/static/js/2.c0d7ff4e.chunk.js"
   },
   {
-    "revision": "9c336d3da27108c336ba",
-    "url": "/curriculum-vitae-react-app/static/js/main.f1b2a28a.chunk.js"
+    "revision": "21e04cd727944b6ffcbe",
+    "url": "/curriculum-vitae-react-app/static/js/main.787d76fa.chunk.js"
   },
   {
     "revision": "ae043a4a20a8640ad0bd",
@@ -28,8 +28,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/curriculum-vitae-react-app/static/media/activities.1d629ebe.svg"
   },
   {
-    "revision": "e159b17611489c821f3521bae8abd50b",
-    "url": "/curriculum-vitae-react-app/static/media/agali.e159b176.svg"
+    "revision": "4a7d2f0d386795295c1bfd535ce8bb26",
+    "url": "/curriculum-vitae-react-app/static/media/agali.4a7d2f0d.svg"
   },
   {
     "revision": "18e2cbc9dd12fd799b82b0618db13eec",
@@ -48,8 +48,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/curriculum-vitae-react-app/static/media/css-3.e791ad21.svg"
   },
   {
-    "revision": "b5a4b3be94f4feaa606731bebd199ac5",
-    "url": "/curriculum-vitae-react-app/static/media/elhatillo.b5a4b3be.svg"
+    "revision": "060cc23cf6a1d570d38c8a2e2de91573",
+    "url": "/curriculum-vitae-react-app/static/media/elhatillo.060cc23c.svg"
   },
   {
     "revision": "8d0a7c344198816b988bcb62dc7cfa57",
@@ -64,16 +64,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/curriculum-vitae-react-app/static/media/iconfinder_yarn_4691251.edf4efaf.svg"
   },
   {
-    "revision": "7e6b33a26097e5a7dc81421bebc81113",
-    "url": "/curriculum-vitae-react-app/static/media/indra.7e6b33a2.svg"
+    "revision": "4dec5b8f6f4e4ae1e30690ae96c8d9a9",
+    "url": "/curriculum-vitae-react-app/static/media/indra.4dec5b8f.svg"
   },
   {
     "revision": "bdee1d95f1a104f5f3152f381ba57ed3",
     "url": "/curriculum-vitae-react-app/static/media/java-logo.bdee1d95.svg"
   },
   {
-    "revision": "4a18f5cd8bce96908a0d574dab012bb4",
-    "url": "/curriculum-vitae-react-app/static/media/javascript.4a18f5cd.svg"
+    "revision": "ae397191c42ae68d317973c9050edb92",
+    "url": "/curriculum-vitae-react-app/static/media/javascript.ae397191.svg"
   },
   {
     "revision": "926c143777ed8cc33af41f555240614d",
@@ -96,16 +96,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/curriculum-vitae-react-app/static/media/maven.55ada69e.svg"
   },
   {
-    "revision": "77fd9911831b67980dd116efe8b6b74c",
-    "url": "/curriculum-vitae-react-app/static/media/pdvsaLaEstancia.77fd9911.svg"
+    "revision": "b360b62b3cdf90af7372e98818c85419",
+    "url": "/curriculum-vitae-react-app/static/media/pdvsaLaEstancia.b360b62b.svg"
   },
   {
     "revision": "73ae8577233cee037d009a7bf6c44615",
     "url": "/curriculum-vitae-react-app/static/media/python.73ae8577.svg"
   },
   {
-    "revision": "f7806196804ef263099c520ddb339c11",
-    "url": "/curriculum-vitae-react-app/static/media/react.f7806196.svg"
+    "revision": "1e35b665ff6cca40a8549cd558a9411e",
+    "url": "/curriculum-vitae-react-app/static/media/react.1e35b665.svg"
   },
   {
     "revision": "8bb3db798d4a0b7d4cb32e0634d0f91d",
@@ -128,16 +128,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/curriculum-vitae-react-app/static/media/sql-file-symbol.b0b395af.svg"
   },
   {
-    "revision": "daa73fd0855fa8f2bf7155c46525d6d1",
-    "url": "/curriculum-vitae-react-app/static/media/usb.daa73fd0.svg"
+    "revision": "e526682c35af7a3c584540c8faf6c029",
+    "url": "/curriculum-vitae-react-app/static/media/usb.e526682c.svg"
   },
   {
-    "revision": "d4004754f205b313dca49f38a95b594d",
-    "url": "/curriculum-vitae-react-app/static/media/usc.d4004754.svg"
+    "revision": "253aa794b277fe8ac27522721641d6a4",
+    "url": "/curriculum-vitae-react-app/static/media/usc.253aa794.svg"
   },
   {
-    "revision": "29b71a854b1986bd67819827234d97dc",
-    "url": "/curriculum-vitae-react-app/static/media/wirtz.29b71a85.svg"
+    "revision": "04e1111eba8f26ee68dbd962d6926767",
+    "url": "/curriculum-vitae-react-app/static/media/wirtz.04e1111e.svg"
   },
   {
     "revision": "3c4fb82b16198fa7da006e35016c9e50",
