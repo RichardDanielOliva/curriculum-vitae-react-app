@@ -112,9 +112,91 @@
             "description": ""
         }
     ],
-    "projects": [
+    "brz-property-client": [
         {
             "id": "0",
+            "title": "brz-property-client",
+            "urlRepository": "https://github.com/RichardDanielOliva/brz-property-client",
+            "description": "The objective of the project is to develop a client side web app to visualise properties on which comply with current accessibility standards.",
+            "skillsImproved": [
+                "Html",
+                "css",
+                "Javascript",
+                "ReactJS",
+                "Redux",
+                "Leaflet",
+                "Bootstrap",
+                "Yarn"
+            ],
+            "tecnologies": [
+                {
+                    "id": "0",
+                    "tecnologyName": "Html",
+                    "skillAsociated": "html"
+                },
+                {
+                    "id": "1",
+                    "tecnologyName": "css",
+                    "skillAsociated": "css"
+                },
+                {
+                    "id": "2",
+                    "tecnologyName": "JavaScript",
+                    "skillAsociated": "javascript"
+                },
+                {
+                    "id": "3",
+                    "tecnologyName": "React",
+                    "skillAsociated": "react"
+                },
+                {
+                    "id": "4",
+                    "tecnologyName": "Bootstrap",
+                    "skillAsociated": "bootstrap"
+                },
+                {
+                    "id": "5",
+                    "tecnologyName": "Yarn",
+                    "skillAsociated": "yarn"
+                }
+            ],
+            "comments": ""
+        },
+        {
+            "id": "1",
+            "title": "brz-property-server",
+            "urlRepository": "https://github.com/RichardDanielOliva/brz-property-server",
+            "description": "The objective of the practice is to implement a microservices architecture. For this purpose, a server was developed for a real estate search portal with Spring Framework 5 and its Spring Cloud Netflix - Eureka module",
+            "skillsImproved": [
+                "Java",
+                "Spring Framework 5",
+                "Spring Cloud Netflix - Eureka",
+                "Spring Data JPA",
+                "Spring Security Auth2",
+                "MongoDB",
+                "Maven"
+            ],
+            "tecnologies": [
+                {
+                    "id": "0",
+                    "tecnologyName": "java",
+                    "skillAsociated": "java"
+                },
+                {
+                    "id": "1",
+                    "tecnologyName": "Spring MVC",
+                    "skillAsociated": "spring"
+                },
+                {
+                    "id": "3",
+                    "tecnologyName": "maven",
+                    "skillAsociated": "maven"
+                }
+            ],
+            "comments": ""
+        },
+         {
+            "id": "2",
             "title": "curriculum-vitae-react-app",
             "urlRepository": "https://github.com/RichardDanielOliva/curriculum-vitae-react-app",
             "description": "Development of a single-page application (SPA) to visualize my Curriculum Vitae",
@@ -161,7 +243,7 @@
             "comments": ""
         },
         {
-            "id": "1",
+            "id": "3",
             "title": "book-administrative-learning-app",
             "urlRepository": "https://github.com/RichardDanielOliva/book-administrative-learning-app",
             "description": "Project developed during the 1st year of Dual Vocational Training.",
@@ -195,7 +277,7 @@
             "comments": ""
         },
         {
-            "id": "2",
+            "id": "4",
             "title": "reactive-book-administrative-learning-app",
             "urlRepository": "https://github.com/RichardDanielOliva/reactive-book-administrative-learning-app.git",
             "description": "Training project in Spring FrameWork 5. Focus in development an alternative reactive applications",
@@ -225,7 +307,7 @@
             "comments": ""
         },
         {
-            "id": "3",
+            "id": "5",
             "title": "sudoku",
             "urlRepository": "https://github.com/RichardDanielOliva/sudoku",
             "description": "Set of functionalities that allow playing Sudoku through a computer terminal. It also allows to solve any kind of Sudoku.",
@@ -241,7 +323,7 @@
             "comments": ""
         },
         {
-            "id": "4",
+            "id": "6",
             "title": "las-damas-espanolas",
             "urlRepository": "https://github.com/RichardDanielOliva/las-damas-espanolas",
             "description": "Program that allows to play the game of Spanish checkers through the terminal of a computer.",
