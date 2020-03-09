@@ -24,7 +24,7 @@ const ProyectList = ({skills}) =>{
 
     return(
             <div className="project-list-component">
-                <h3 className="project-list-title">PROYECTOS</h3>
+                <h3 className="project-list-title">PROJECTS</h3>
                 <div className="project-list-cards">
                 {
                     projectsData.map(({id, tecnologies, ...otherProps}) =>  (
